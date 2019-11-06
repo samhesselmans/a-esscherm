@@ -14,6 +14,8 @@ var aantalActs = url.searchParams.get("aantalActs");
 var timePerAct = url.searchParams.get("timePerAct");
 var actUpdateTime = url.searchParams.get("actUpdateTime");
 
+var localTest = url.searchParams.get("locatTest");
+
 var fallbackPoster = "default.png"
 
 
@@ -27,7 +29,8 @@ if(timePerAct == null)
 	timePerAct = 10000;
 if(actUpdateTime == null)
 	actUpdateTime = 600000;
-
+if(localTest)
+	icsUrl = "ics.ics"
 //Update Activities with callback
 function updateActiviteiten(call){
 	lastUpdated = new Date();
@@ -52,7 +55,7 @@ function updateActiviteiten(call){
 
 
 function getAMO(){
-	
+
 	var exts = ["pdf","png","jpg","gif"]
 	console.log(baseUrl + "Posters")
 	$.get(window.location.pathname + "Posters/",function(data){
@@ -75,7 +78,7 @@ function getAMO(){
 			})
 		}
 
-    actsPerAmo = aantalActs / amoPosters.length;	
+    actsPerAmo = aantalActs / amoPosters.length;
 	})
 }
 
@@ -114,11 +117,11 @@ function fillacts(){
 		//alert('error loading ' + this.src);
 		this.src = fallbackPoster; // place your error.png image instead
 		};
-		
+
 		cont.appendChild(div);
 		imgCont.appendChild(img);
 	}
-	
+
 }
 var aantalacts = 0
 
@@ -128,7 +131,7 @@ function updateAll(){
 	cont.innerHTML = "";
 	imgCont.innerHTML = "";
 	console.log("updating all")
-	updateActiviteiten(fillacts);	
+	updateActiviteiten(fillacts);
 	getAMO()
 }
 
@@ -151,15 +154,15 @@ function hideCurrentImmages(){
 	var img = document.getElementById("img"+currentAct)
 	var imgamo = document.getElementById("amo"+currentAmo)
 	var div = document.getElementById("act"+currentAct)
-	
+
 	div.classList.remove("active")
-	
+
 	//Hide them
 	if(img != undefined)
 		img.hidden = true;
 	if(imgamo != undefined)
 		imgamo.hidden = true;
-		
+
 }
 
 function nextAMO(){
@@ -176,9 +179,9 @@ function nextAMO(){
 function nextAct(){
 		currentAct ++;
 		var img = document.getElementById("img"+currentAct)
-		
-		
-		
+
+
+
 		if(img == undefined){
 			currentAct = 0
 			img = document.getElementById("img"+currentAct)
@@ -190,11 +193,11 @@ function nextAct(){
 		}
 		catch(error){
 			console.log("No acts")
-		}	
+		}
 }
 
 function changeAct(){
-	
+
 	if(timeSinceLastAmo < actsPerAmo && aantalActs > 0 || amoPosters.length == 0){
 		console.log("changing act")
 		hideCurrentImmages();
@@ -220,12 +223,5 @@ $(function(){
 	startSlideShow()
 	//var amotimer = setInterval(getAMO(),actUpdateTime);
 	console.log("starting")
-	
+
 })
-
-
-
-
-
-
-
