@@ -21,8 +21,9 @@ var fallbackPoster = "default.png"
 
 const posterId = "container--poster"
 const actId = "container--events"
+const amoId = "";
 const activeClass = "active";
-
+const blurClass = "blur"
 
 
 //Parse the url parameters
@@ -44,6 +45,7 @@ function updateActiviteiten(call){
 		var jcalData = ICAL.parse(data);
 		var comp = new ICAL.Component(jcalData);
 		var actsical = comp.getAllSubcomponents("vevent");
+		//Add acts to act list
 		for(var i =0; i< actsical.length ; i++){
 
 			acts.push(new activiteit(actsical[i]))
@@ -70,11 +72,15 @@ function getAMO(){
 				var pdfName = $(this).text();
 				var pdfUrl = $(this).attr('href');
 				var img = document.createElement("img")
+
 				console.log(pdfUrl);
+
+				//Setup the image
 				img.src =  "Posters/" + pdfUrl;
 				img.hidden = true;
 				img.classList.add("poster")
 				img.id = "amo" + i;
+
 				amoPosters.push(img);
 				var imgCont = document.getElementById(posterId)
 				imgCont.appendChild(img);
@@ -114,12 +120,16 @@ function fillacts(){
 	var cont = document.getElementById(actId);
 	var imgCont = document.getElementById(posterId)
 	for(var i =0; i< aantalActs;i++){
+
+		//Add the act and act poster
 		var div = acts[i].maakactdiv("act"+i);
 		var img = acts[i].maakimg("img"+i);
 		img.classList.add("poster")
+
+
 		img.onerror = function () {
-		//alert('error loading ' + this.src);
-		this.src = fallbackPoster; // place your error.png image instead
+			//The image was not an valid image, change to default poster
+			this.src = fallbackPoster;
 		};
 
 		cont.appendChild(div);
@@ -130,7 +140,7 @@ function fillacts(){
 var aantalacts = 0
 
 function updateAll(){
-		var cont = document.getElementById(actId);
+	var cont = document.getElementById(actId);
 	var imgCont = document.getElementById(posterId);
 	cont.innerHTML = "";
 	imgCont.innerHTML = "";
@@ -139,10 +149,8 @@ function updateAll(){
 	getAMO();
 }
 
-
+//Starts the changing of acts and other posters
 function startSlideShow(){
-	//aantalacts = aantalact
-	//fillacts()
 	var timer = setInterval(changeAct,timePerAct);
 	var updateTimeing = setInterval(updateAll,actUpdateTime);
 }
@@ -159,6 +167,7 @@ function hideCurrentImmages(){
 	var imgamo = document.getElementById("amo"+currentAmo)
 	var div = document.getElementById("act"+currentAct)
 
+	//Remove active from activeClass
 	div.classList.remove(activeClass)
 
 	//Hide them
@@ -184,16 +193,16 @@ function nextAct(){
 		currentAct ++;
 		var img = document.getElementById("img"+currentAct)
 
-
-
 		if(img == undefined){
+			//We had all the acts, we change back to the first one
 			currentAct = 0
 			img = document.getElementById("img"+currentAct)
 		}
-		try{		var div = document.getElementById("act"+currentAct)
-		div.classList.add(activeClass)
-		img.hidden =false;
-		timeSinceLastAmo ++;
+		try{
+			var div = document.getElementById("act"+currentAct)
+			div.classList.add(activeClass)
+			img.hidden =false;
+			timeSinceLastAmo ++;
 		}
 		catch(error){
 			console.log("No acts")
@@ -218,14 +227,17 @@ function changeAct(){
 
 var timer;
 $(function(){
+	//Get and clear the needed containers
 	var cont = document.getElementById(actId);
 	var imgCont = document.getElementById(posterId);
 	cont.innerHTML = "";
 	imgCont.innerHTML = "";
-	//updateActiviteiten(function(){startSlideShow(timePerAct,aantalActs,actUpdateTime)});
+
+	//Add the items
 	updateAll();
+
+	//Start the changing
 	startSlideShow()
-	//var amotimer = setInterval(getAMO(),actUpdateTime);
 	console.log("starting")
 
 })
