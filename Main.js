@@ -19,8 +19,11 @@ var localTest = url.searchParams.get("locatTest");
 var fallbackPoster = "default.png"
 
 
-var posterId = "container--poster"
-var actId = "container--events"
+const posterId = "container--poster"
+const actId = "container--events"
+const activeClass = "active";
+
+
 
 //Parse the url parameters
 if(aantalActs == null)
@@ -31,6 +34,7 @@ if(actUpdateTime == null)
 	actUpdateTime = 600000;
 if(localTest)
 	icsUrl = "ics.ics"
+
 //Update Activities with callback
 function updateActiviteiten(call){
 	lastUpdated = new Date();
@@ -132,7 +136,7 @@ function updateAll(){
 	imgCont.innerHTML = "";
 	console.log("updating all")
 	updateActiviteiten(fillacts);
-	getAMO()
+	getAMO();
 }
 
 
@@ -155,7 +159,7 @@ function hideCurrentImmages(){
 	var imgamo = document.getElementById("amo"+currentAmo)
 	var div = document.getElementById("act"+currentAct)
 
-	div.classList.remove("active")
+	div.classList.remove(activeClass)
 
 	//Hide them
 	if(img != undefined)
@@ -187,7 +191,7 @@ function nextAct(){
 			img = document.getElementById("img"+currentAct)
 		}
 		try{		var div = document.getElementById("act"+currentAct)
-		div.classList.add("active")
+		div.classList.add(activeClass)
 		img.hidden =false;
 		timeSinceLastAmo ++;
 		}
