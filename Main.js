@@ -42,6 +42,7 @@ function updateActiviteiten(call){
 	lastUpdated = new Date();
 	console.log("Updating")
 	$.get( icsUrl, function( data ) {
+		acts = []
 		var iData = data;
 		var jcalData = ICAL.parse(data);
 		var comp = new ICAL.Component(jcalData);
@@ -69,6 +70,7 @@ function getAMO(){
 	var pagedocument = $(data);
 		var i =0
 		for(var index = 0; index < exts.length; index ++){
+			amoPosters = []
 			pagedocument.find('a[href$=".' + exts[index] + '"').each(function() {
 				var pdfName = $(this).text();
 				var pdfUrl = $(this).attr('href');
