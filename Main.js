@@ -179,10 +179,10 @@ function hideCurrentImmages(){
 
 }
 //Creates th =e highligh popup and blur
-function changeVisual(){
+function changeVisual(blur){
 	var actCont = document.getElementById(actId)
 	var highlightCont = document.getElementById(highlightId);
-	if(highlightCont.style.opacity != "" || actCont.style.filter != ""){
+	if(!blur){
 		console.log("showing")
 		actCont.style.filter = ""
 		actCont.style.webkitFilter = ""
@@ -192,7 +192,7 @@ function changeVisual(){
 	}else{
 		console.log("blurring");
 		actCont.style.filter += "url(data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' ><filter id='svgMask'><feGaussianBlur stdDeviation='8' /></filter></svg>#svgMask);"
-		actCont.style.webkitFilter = "blur(8px);  -moz-filter: blur(8px); -o-filter: blur(8px);  -ms-filter: blur(8px)"
+		//actCont.style.webkitFilter = "blur(8px);  -moz-filter: blur(8px); -o-filter: blur(8px);  -ms-filter: blur(8px)"
 
 		highlightCont.style.opacity = 1;
 		highlightCont.style.height= "12em";
@@ -208,7 +208,7 @@ function nextAMO(){
 		currentAmo = 0
 		img = document.getElementById("amo"+currentAmo)
 	}
-	changeVisual();
+	changeVisual(true);
 	img.hidden =false;
 	timeSinceLastAmo = 0;
 }
@@ -225,7 +225,7 @@ function nextAct(){
 		try{
 			var div = document.getElementById("act"+currentAct)
 			div.classList.add(activeClass)
-			changeVisual();
+			changeVisual(false);
 			img.hidden =false;
 			timeSinceLastAmo ++;
 		}
