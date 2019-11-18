@@ -182,14 +182,15 @@ function hideCurrentImmages(){
 function changeVisual(){
 	var actCont = document.getElementById(actId)
 	var highlightCont = document.getElementById(highlightId);
-	if(highlightCont.style.opacity != "" && actCont.style.filter != ""){
+	if(highlightCont.style.opacity != "" || actCont.style.filter != ""){
+		console.log("showing")
 		actCont.style.filter = ""
 		actCont.style.webkitFilter = ""
 
 		highlightCont.style.opacity = "";
 		highlightCont.style.height= "";
 	}else{
-
+		console.log("blurring");
 		actCont.style.filter += "url(data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' ><filter id='svgMask'><feGaussianBlur stdDeviation='8' /></filter></svg>#svgMask);"
 		actCont.style.webkitFilter = "blur(8px);  -moz-filter: blur(8px); -o-filter: blur(8px);  -ms-filter: blur(8px)"
 
