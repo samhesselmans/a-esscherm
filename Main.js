@@ -14,13 +14,14 @@ var aantalActs = url.searchParams.get("aantalActs");
 var timePerAct = url.searchParams.get("timePerAct");
 var actUpdateTime = url.searchParams.get("actUpdateTime");
 
-var localTest = url.searchParams.get("locatTest");
+var localTest = url.searchParams.get("localTest");
 
 var fallbackPoster = "default.png"
 
 
 const posterId = "container--poster"
 const actId = "container--events"
+const highlightId = "container--highlight"
 const amoId = "";
 const activeClass = "active";
 const blurClass = "blur"
@@ -177,14 +178,36 @@ function hideCurrentImmages(){
 		imgamo.hidden = true;
 
 }
+//Creates th =e highligh popup and blur
+function changeVisual(){
+	var actCont = document.getElementById(actId)
+	var highlightCont = document.getElementById(highlightId);
+	if(highlightCont.style.opacity != "" && actCont.style.filter != ""){
+		actCont.style.filter = ""
+		actCont.style.webkit-filter = ""
+
+		highlightCont.style.opacity = "";
+		highlightCont.style.height= "";
+	}else{
+
+		actCont.style.filter += "url(data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' ><filter id='svgMask'><feGaussianBlur stdDeviation='8' /></filter></svg>#svgMask);"
+		actCont.style.webkit-filter = "blur(8px);  -moz-filter: blur(8px); -o-filter: blur(8px);  -ms-filter: blur(8px)"
+
+		highlightCont.style.opacity = 1;
+		highlightCont.style.height= "12em";
+	}
+}
 
 function nextAMO(){
 	currentAmo ++;
+	var div = document.getElementById(actId)
+
 	var img = document.getElementById("amo"+currentAmo)
 	if(img == undefined){
 		currentAmo = 0
 		img = document.getElementById("amo"+currentAmo)
 	}
+	changeVisual();
 	img.hidden =false;
 	timeSinceLastAmo = 0;
 }
@@ -201,6 +224,7 @@ function nextAct(){
 		try{
 			var div = document.getElementById("act"+currentAct)
 			div.classList.add(activeClass)
+			changeVisual();
 			img.hidden =false;
 			timeSinceLastAmo ++;
 		}
