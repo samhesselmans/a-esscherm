@@ -69,8 +69,8 @@ function getAMO(){
 	$.get(window.location.pathname + "Posters/",function(data){
 	var pagedocument = $(data);
 		var i =0
+		amoPosters = []
 		for(var index = 0; index < exts.length; index ++){
-			amoPosters = []
 			pagedocument.find('a[href$=".' + exts[index] + '"').each(function() {
 				var pdfName = $(this).text();
 				var pdfUrl = $(this).attr('href');
