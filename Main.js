@@ -18,7 +18,7 @@ var localTest = url.searchParams.get("localTest");
 
 var fallbackPoster = "default.png"
 
-
+//HTML tags used
 const posterId = "container--poster"
 const actId = "container--events"
 const highlightId = "container--highlight"
@@ -41,6 +41,7 @@ if(localTest)
 function updateActiviteiten(call){
 	lastUpdated = new Date();
 	console.log("Updating")
+	//Get the ical from the aes website and parse for the activities
 	$.get( icsUrl, function( data ) {
 		acts = []
 		var iData = data;
@@ -63,14 +64,16 @@ function updateActiviteiten(call){
 
 
 function getAMO(){
-
-	var exts = ["pdf","png","jpg","gif"]
+	//The supported indexes of featured posters
+	var exts = ["pdf","png","jpg","jpeg","gif"]
 	console.log(baseUrl + "Posters")
 	$.get(window.location.pathname + "Posters/",function(data){
 	var pagedocument = $(data);
 		var i =0
 		amoPosters = []
 		for(var index = 0; index < exts.length; index ++){
+
+			//Search for links ending in the given exstensions
 			pagedocument.find('a[href$=".' + exts[index] + '"').each(function() {
 				var pdfName = $(this).text();
 				var pdfUrl = $(this).attr('href');
@@ -98,7 +101,7 @@ function getAMO(){
 
 
 
-
+//Download file from given uri
 function downloadURI(uri, name) {
   var link = document.createElement("a");
   link.download = name;
@@ -109,7 +112,7 @@ function downloadURI(uri, name) {
   delete link;
 }
 
-
+//Create an element with given text
 function createel(text,el){
 	var a = document.createElement(el);
 	a.textContent = text;
@@ -117,7 +120,7 @@ function createel(text,el){
 }
 
 
-
+//Filling the act div with activities
 function fillacts(){
 	console.log("Filling " + aantalActs + " acts")
 	var cont = document.getElementById(actId);
