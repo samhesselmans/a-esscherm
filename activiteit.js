@@ -11,12 +11,12 @@ class activiteit{
 		this.locatie = data.getFirstPropertyValue("location");
 		this.posterurl = data.getFirstPropertyValue("url") + "/Actposter";
 	}
-	
+
 	getDateStartString(){
 		return dagen[this.start.dayOfWeek() - 1] + " " + this.start.day + " " + maanden[this.start.month -1];
 	}
 	getTimeStartString(){
-		var h = this.start.hour.toString()
+		var h = (this.start.hour + 1).toString()
 		if(h.length ==1){
 			h = 0+h
 		}
@@ -26,7 +26,7 @@ class activiteit{
 		}
 		return h + ":"+m
 	}
-	
+
 	maakactdiv(id){
 	var div = document.createElement("div");
 	div.id = id;
@@ -35,7 +35,7 @@ class activiteit{
 	maindiv.classList.add("event--main");
 	var datediv = document.createElement("div");
 	datediv.classList.add("event--date");
-	
+
 	maindiv.appendChild(createel(this.naam,"h1"))
 	maindiv.appendChild(createel(this.locatie,"p"))
 	datediv.appendChild(createel(this.getDateStartString(),"h3"))
@@ -52,5 +52,5 @@ class activiteit{
 		img.hidden = true;
 		return img
 	}
-	
+
 }
