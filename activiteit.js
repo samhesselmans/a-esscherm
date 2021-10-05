@@ -15,8 +15,10 @@ class activiteit{
 	getDateStartString(){
 		return dagen[this.start.dayOfWeek() - 1] + " " + this.start.day + " " + maanden[this.start.month -1];
 	}
+	//Returns the time string for an acitiviteit
 	getTimeStartString(){
-		var h = (this.start.hour + 1).toString()
+		var d = new Date();
+		var h = (this.start.hour + (d.getTimezoneOffset()/-60)).toString()
 		if(h.length ==1){
 			h = 0+h
 		}
