@@ -15,6 +15,14 @@ $media--fullscreen: (
   media: 1200px,
 );
 
+$media--fullhd: (
+  media: 1920px,
+);
+
+$media--4k: (
+  media: 3810px,
+);
+
 // Typography
 $base-font-family: $font-stack-system;
 $heading-font-family: $base-font-family;

@@ -85,24 +85,45 @@ html{
   min-height: 120px;
 }
 
+.banner{
+  margin-top: auto;
+  background-color: black;
+}
+
 .event--main{
   @include flex-column();
 
   width: 75%;
   height: 100%;
   justify-content: space-evenly;
-  padding: 1em;
+  padding-left: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 0.5em;
+  @include grid-media($media--4k) {
+    padding: 1em;
+  }
 
   > h1{
+    @include grid-media($media--fullhd) {
+    font-size: 2.25em;
+    }
+
+    @include grid-media($media--4k) {
+    max-width: 1800px;
     font-size: 3em;
-    max-width: 800px;
+    }
+    max-width: 860px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
   }
 
   > p{
+    @include grid-media($media--4k) {
     font-size: 2.25em;
+    }
+    font-size: 1.5em;
   }
 }
 
@@ -131,15 +152,11 @@ html{
 }
 
 .container--poster{
-  margin-left: auto;
-  max-width: 480px;
-
-  > img{
-    background: #fff;
-    box-shadow: 0 2px 4px 0 rgba(14,30,37,.12);
-    -webkit-box-shadow: 0 2px 4px 0 rgba(14,30,37,.12);
-    border-radius: .4em;
-    box-sizing: border-box;
+  display: none;
+  @include grid-media($media--fullhd) {
+  @include flex-row();
+  min-width: 770px;
+  justify-content: flex-end;
   }
 }
 
@@ -150,6 +167,12 @@ html{
 
   > img{
     max-height: 120px;
+    @include grid-media($media--fullhd) {
+      max-height: 160px;
+    }
+    @include grid-media($media--4k) {
+      max-height: 210px;
+    }
     margin-right: 1em;
     filter: drop-shadow(2px 4px 2px rgba(14,30,37,.12));
     -webkit-filter: drop-shadow(2px 4px 2px rgba(14,30,37,.12));
