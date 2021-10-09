@@ -7,7 +7,8 @@ var amoPosters =[];
 
 var lastUpdated;
 var icsUrl = "https://www.a-eskwadraat.nl/Activiteiten/Agenda/ics"
-var baseUrl = "https://home.a-eskwadraat.nl/~samh/NewTVScherm/"
+var hefInfoUrl = "https://lustrum.a-eskwadraat.nl/acthook.php"
+
 
 var url = new URL(window.location.href);
 var aantalActs = url.searchParams.get("aantalActs");
@@ -34,8 +35,10 @@ if(timePerAct == null)
 	timePerAct = 10000;
 if(actUpdateTime == null)
 	actUpdateTime = 600000;
-if(localTest)
+if(localTest){
 	icsUrl = "ics.ics"
+	hefInfoUrl = "test.txt"
+}
 
 //Update Activities with callback
 function updateActiviteiten(call){
@@ -66,7 +69,6 @@ function updateActiviteiten(call){
 function getAMO(){
 	//The supported indexes of featured posters
 	var exts = ["pdf","png","jpg","jpeg","gif"]
-	console.log(baseUrl + "Posters")
 	$.get(window.location.pathname + "Posters/",function(data){
 	var pagedocument = $(data);
 		var i =0
@@ -140,6 +142,10 @@ function fillacts(){
 
 		cont.appendChild(div);
 		imgCont.appendChild(img);
+		if(i == 0){
+			img.hidden=false;
+			div.classList.add(activeClass);	
+		}
 	}
 
 }
@@ -157,6 +163,8 @@ function updateAll(){
 
 //Starts the changing of acts and other posters
 function startSlideShow(){
+
+
 	var timer = setInterval(changeAct,timePerAct);
 	var updateTimeing = setInterval(updateAll,actUpdateTime);
 }
@@ -256,6 +264,12 @@ function changeAct(){
 	}
 }
 
+function GetHEFInfo(){
+	$.getJSON(hefInfoUrl, function(data) {
+    console.log(data)
+});
+}
+
 var timer;
 $(function(){
 	//Get and clear the needed containers
@@ -266,7 +280,7 @@ $(function(){
 
 	//Add the items
 	updateAll();
-
+	GetHEFInfo();
 	//Start the changing
 	startSlideShow()
 	console.log("starting")
