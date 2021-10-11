@@ -144,7 +144,7 @@ function fillacts(){
 		imgCont.appendChild(img);
 		if(i == 0){
 			img.hidden=false;
-			div.classList.add(activeClass);	
+			div.classList.add(activeClass);
 		}
 	}
 
@@ -267,6 +267,15 @@ function changeAct(){
 function GetHEFInfo(){
 	$.getJSON(hefInfoUrl, function(data) {
     console.log(data)
+		var date = document.getElementById('HEF-date')
+		var name = document.getElementById('HEF-name')
+		var time = document.getElementById('HEF-time')
+		var timer = document.getElementById('HEF-timer')
+
+		date.innerHTML = data.date
+		name.innerHTML = data.name
+		time.innerHTML = data.time
+		timer.innerHTML = data.timer
 });
 }
 
