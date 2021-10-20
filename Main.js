@@ -159,6 +159,7 @@ function updateAll(){
 	console.log("updating all")
 	updateActiviteiten(fillacts);
 	getAMO();
+	GetHEFInfo();
 }
 
 //Starts the changing of acts and other posters
@@ -289,7 +290,7 @@ $(function(){
 
 	//Add the items
 	updateAll();
-	GetHEFInfo();
+
 	//Start the changing
 	startSlideShow()
 	console.log("starting")
