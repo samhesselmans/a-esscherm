@@ -3,622 +3,274 @@ VERSION:2.0
 PRODID:-//A–Eskwadraat//WSW4
 
 BEGIN:VEVENT
+DESCRIPTION:<div><span><span style="color:#222222\;"><span style="font-fam
+ ily:'Default Sans Serif'\, Verdana\, Arial\, Helvetica\, sans-serif\;"><b>
+ <font face="Default Sans Serif\, Verdana\, Arial\, Helvetica\, sans-serif"
+ ><font size="2">Looking for a needle in a haystack</font></font></b></span
+ ></span></span></div> <div>\n<div> </div> <div><span><span style="color:#
+ 222222\;"><span style="font-family:'Default Sans Serif'\, Verdana\, Arial\
+ , Helvetica\, sans-serif\;"><font size="2"><font face="Default Sans Serif\
+ , Verdana\, Arial\, Helvetica\, sans-serif">At </font></font><font size="2
+ "><font face="Default Sans Serif\, Verdana\, Arial\, Helvetica\, sans-seri
+ f">the Dutch Fiscal Information and Investigation Service (</font></font><
+ span style="font-size:small\;">FIOD)</span><font size="2"><font face="Defa
+ ult Sans Serif\, Verdana\, Arial\, Helvetica\, sans-serif"> we are fightin
+ g financial crime: tax fraud\, money laundering\, and corruption. Anno 202
+ 2\, this means sifting through enormous amounts of data in search of evide
+ nce. </font></font><span style="font-size:small\;">Mark and Ronald\, both 
+ working as ML engineers </span><font size="2"><font face="Default Sans Ser
+ if\, Verdana\, Arial\, Helvetica\, sans-serif">at </font></font><span styl
+ e="font-size:small\;">the Center of Data Expertise (</span><span style="fo
+ nt-size:small\;">CoDE) </span><span style="font-size:small\;">at the FIOD\
+ , are developing tools and algorithms that enable investigators to get to 
+ the essence of the case faster by smartly reducing the amount of data to s
+ earch through. </span><span style="font-size:small\;">In our presentation\
+ , we are going to talk about some of these tools\, and the techniques behi
+ nd them. </span><span style="font-size:small\;">We will also give more bac
+ kground about what the FIOD does by talking through a real-life case. </sp
+ an></span></span></span></div> <div><span><span style="color:#222222\;"><s
+ pan style="font-family:'Default Sans Serif'\, Verdana\, Arial\, Helvetica\
+ , sans-serif\;"><font size="2"><font face="Default Sans Serif\, Verdana\, 
+ Arial\, Helvetica\, sans-serif">Finally\, we are going to show you some of
+  the work that an MSc graduate student is doing with us currently\, and wh
+ at kinds of other problems you could work on at the FIOD as a student!</fo
+ nt></font></span></span></span></div>\n</div> (<a href="https://www.a-eskw
+ adraat.nl/Activiteiten/spocie/8699/LunchlezingBelastingdienst">bekijk acti
+ viteit</a>)
+DTSTART:20220330T110000Z
+DTEND:20220330T130000Z
+DTSTAMP:20220328T145100Z
+LOCATION:BBG 106
+X-ORGANIZER:SpoCie
+SUMMARY:Lunchlezing Belastingdienst
+UID:8699
+URL:https://www.a-eskwadraat.nl/Activiteiten/spocie/8699/LunchlezingBelast
+ ingdienst
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:<p>ALL-IN is eindelijk terug! A-Eskwadraat\, Alcmaeon\, Proton
+  en de UHSK organiseren samen dit knallende feest op 30 maart in De Werfke
+ lder. </p> <p>De kaartverkoop is begonnen! Om binnen te komen heb je je 
+ fysieke kaartje nodig. Dit kan je bij de boekverkoop ophalen de week voor 
+ het feest. Als het feest nog niet uitverkocht is tegen die tijd zal er ook
+  kaartverkoop aan de deur zijn. Op=op!</p> (<a href="https://www.a-eskwadr
+ aat.nl/Activiteiten/allin/8667/All-in">bekijk activiteit</a>)
+DTSTART:20220330T210000Z
+DTEND:20220331T020000Z
+DTSTAMP:20220309T123145Z
+LOCATION:De werfkelder
+X-ORGANIZER:All-In
+SUMMARY:All-in
+UID:8667
+URL:https://www.a-eskwadraat.nl/Activiteiten/allin/8667/All-in
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:<p>Wil je misschien een bestuursjaar gaan doen? Dan heb ik goe
+ d nieuws voor je!</p> <p>Dit is dé kans om te daten met iemand van het be
+ stuur! 18 en 31 maart zijn uitgerekend dé momenten om VERLIEFD te worden 
+ op het doen van een bestuursjaar. Ga met je favoriete bestuurslid op date\
+ , stel alle vragen die je nog wilt stellen en praat over of een bestuursja
+ ar iets voor jou is. Je kijkt samen met het bestuurslid waarmee je op date
+  gaat hoe laat op de dag voor jullie uitkomt.</p> <p>Lijkt dit je wat? Gee
+ f je dan op met de volgende link: <a href="https://forms.gle/XxDX895rzXnW
+ qAV26">https://forms.gle/XxDX895rzXnWqAV26</a></p> (<a href="https://www.a
+ -eskwadraat.nl/Activiteiten/bestuur2122/8688/DatenmetBestuur">bekijk activ
+ iteit</a>)
+DTSTART:20220331T070000Z
+DTEND:20220331T150000Z
+DTSTAMP:20220311T132857Z
+X-ORGANIZER:Bestuur 2021-2022
+SUMMARY:Daten met Bestuur
+UID:8688
+URL:https://www.a-eskwadraat.nl/Activiteiten/bestuur2122/8688/DatenmetBest
+ uur
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:<p>Beste wiskundige\,</p> <p>Vind jij het leuk om met medestud
+ enten te praten over onderwijs? Wil jij iets aan hun klachten doen? Wil ji
+ j invloed hebben op wat er in het departement of in de faculteit gebeurt? 
+ Geef je dan op als lid van het WOL! Je vormt dan het volgende academische
+  jaar samen met twee medestudenten het WOL en als lid zit je in de Facul
+ teitsraad\, de OAC/OC of het Departementsbestuur. Ook organiseer je WWW'tj
+ es waarin je studenten vraagt wat zij van het onderwijs vinden.</p> <p><br
+  />\nSolliciteren doe je door een mailtje te sturen naar <a href="mailto:
+ science.wol@uu.nl">science.wol@uu.nl</a> waarin je je kort voorstelt en e
+ en motivatie geeft waarom jij hét nieuwe WOL-lid bent. Solliciteren kan 
+ tot 1 april en in de weken erna zullen de sollicitatiegesprekken plaatsvin
+ den.</p> <p><br />\nHeb je nog vragen? Stuur gerust een mailtje naar <a h
+ ref="mailto:science.wol@uu.nl">science.wol@uu.nl</a>!</p> (<a href="https:
+ //www.a-eskwadraat.nl/Activiteiten/medezeggenschap/8705/DeadlineopWOLging"
+ >bekijk activiteit</a>)
+DTSTART:20220401T215959Z
+DTEND:20220401T220000Z
+DTSTAMP:20220328T113938Z
+X-ORGANIZER:Medezeggenschap
+SUMMARY:Deadline opWOLging
+UID:8705
+URL:https://www.a-eskwadraat.nl/Activiteiten/medezeggenschap/8705/Deadline
+ opWOLging
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:<p>In een ver verleden was er populair spel bij A-Eskwadraat.<
+ br />\nHet was gezellig\, het was strategisch en het was spannend spannend
+ .<br />\nDe uren besteed aan het spel waren legendarisch.<br />\nEn het ko
+ mt terug.</p> <p>5 april zal de FantaCie een cursus organiseren om het spe
+ l uit te leggen en samen te spelen.<br />\nDus komt allen bij de TaiPan-sp
+ ellenavond!</p> (<a href="https://www.a-eskwadraat.nl/Activiteiten/fantaci
+ e/8636/TaipanCursus">bekijk activiteit</a>)
+DTSTART:20220405T131500Z
+DTEND:20220405T170000Z
+DTSTAMP:20220328T113513Z
+LOCATION:BBG 161
+X-ORGANIZER:FantaCie
+SUMMARY:Taipan Cursus
+UID:8636
+URL:https://www.a-eskwadraat.nl/Activiteiten/fantacie/8636/TaipanCursus
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:<p>Het afgelopen jaar heeft de werkgroep Vertrouwenspersoon en
+  gedragscode (WGVPGC) hard gewerkt om een gedragscode te schrijven voor A-
+ Eskwadraat. De eerste versie daarvan is af en wij willen graag jullie feed
+ back horen! Op 29 maart en 6 april zullen we van 12:00-14:00 in de kamer z
+ itten met koekjes en uitgeprinte gedragscodes. Wil je de gedragscode alvas
+ t van te voren lezen dan kan je hem vinden via: <a href="https://www.goog
+ le.com/url?q=https://drive.google.com/file/d/1LTO89ZNwS-uf99OvB9ACZvUT7TW9
+ atXp/view?usp%3Dsharing&amp\;sa=D&amp\;source=editors&amp\;ust=16475132093
+ 96245&amp\;usg=AOvVaw30AhkCd3xpWAhA_SzOpkdD">https://drive.google.com/file
+ /d/1LTO89ZNwS-uf99OvB9ACZvUT7TW9atXp/view?usp=sharing</a>. Als je niet fys
+ iek er bij kan zijn\, maar toch wel feedback wilt geven kan dit via de vol
+ gende forms: https://forms.gle/nbBkqMnmPBqoSDTe6. Hierin kan je ook anoni
+ em feedback geven. De forms staat open tot 24 april.</p> (<a href="https:/
+ /www.a-eskwadraat.nl/Activiteiten/wgvpgc/8695/Fysiekfeedbackmomentgedragsc
+ ode">bekijk activiteit</a>)
+DTSTART:20220406T100000Z
+DTEND:20220406T120000Z
+DTSTAMP:20220320T112757Z
+LOCATION:De Gezelligheidskamer
+X-ORGANIZER:WGVPGC
+SUMMARY:Fysiek feedbackmoment gedragscode
+UID:8695
+URL:https://www.a-eskwadraat.nl/Activiteiten/wgvpgc/8695/Fysiekfeedbackmom
+ entgedragscode
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:<p style="margin:0px\;"><span style="font-size:small\;"><span 
  style="color:#222222\;"><span style="font-family:Arial\, Helvetica\, sans-
  serif\;"><span style="font-style:normal\;"><span><span><span style="font-w
  eight:400\;"><span style="letter-spacing:normal\;"><span><span style="text
  -transform:none\;"><span style="white-space:normal\;"><span><span style="w
  ord-spacing:0px\;"><span style="background-color:#ffffff\;"><span><span><s
- pan>Op zaterdag 9 oktober 2021 is er een internationale wiskundecompetitie
-  voor wiskundestudenten\, de Simon Marais Mathematics Competition. Vanuit 
- Utrecht wil <a href="https://www.a-eskwadraat.nl/Vereniging/Commissies/ci
- einfinity/" style="color:#1155cc\;">C</a>ie Infinity ook met een groep st
- udenten meedoen. Dus vind je het leuk om alleen of in een paar mee te doen
- \, en studeer je nog niet langer dan vier jaar? Schrijf je dan in via <a 
- href="https://eu.jotform.com/form/212433835056352">dit formulier</a> (het
-  wachtwoord is UUSimonMarais). Je vindt op de <a href="https://www.simonm
- arais.org/">website van de SMMC</a> meer informatie. Iedereen is uitgenod
- igd om zich in te schrijven\, ook eerstejaars! (Zolang je minder dan vier 
- jaar studeert aan een universiteit). De wedstrijd duurt drie uur (8.30-11.
- 30) en vindt plaats op de UU. Informatie over de locatie volgt nog.</span>
- </span></span></span></span></span></span></span></span></span></span></sp
- an></span></span></span></span></span></p> <p style="margin:0px\;"> </p> 
- (<a href="https://www.a-eskwadraat.nl/Activiteiten/cieinfinity/8538/Mathem
- aticsCompetition(deSimonMaraisMathematicsCompetition)">bekijk activiteit</
- a>)
-DTSTART:20211009T063000Z
-DTEND:20211009T093000Z
-DTSTAMP:20210913T201714Z
-X-ORGANIZER:Cie Infinity
-SUMMARY:Mathematics Competition (de Simon Marais Mathematics Competition)
-UID:8538
-URL:https://www.a-eskwadraat.nl/Activiteiten/cieinfinity/8538/MathematicsC
- ompetition(deSimonMaraisMathematicsCompetition)
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:<p>Het Utrechts Kampioenschap Programmeren (UKP) komt er weer 
- aan! Dit is de voorronde voor de Benelux Algorithm Programming Contest (B
- APC). Tijdens het UKP krijgen teams van drie studenten een aantal uur de t
- ijd om een aantal lastige programmeer problemen op te lossen. De programm
- eer talen waarin je de problemen mag oplossen zijn: C99\, C++ (versie 14 o
- f hoger)\, Python (versie 3)\, Java (versie 11 of hoger) en Kotlin (versie
-  1.3). De teams die dit het beste doen winnen een plaatsing voor het BAPC 
- dat dit jaar op 30 oktober zal plaatsvinden. Vanwege het coronavirus zal h
- et UKP dit jaar (hopelijk voor de laatste keer) online zijn. Lijkt het je 
- leuk om mee te doen aan het UKP? Schrijf je dan nu in via de onderstaande 
- link:</p> <p>https://forms.gle/kMxYPtHY3zF5L7sQ9</p> <p>Voor meer informat
- ie over het BAPC zie: https://2021.bapc.eu/</p> (<a href="https://www.a-e
- skwadraat.nl/Activiteiten/escapade/8549/UtrechtsKampioenschapProgrammeren"
- >bekijk activiteit</a>)
-DTSTART:20211009T090000Z
-DTEND:20211009T150000Z
-DTSTAMP:20211003T130116Z
-LOCATION:Online
-X-ORGANIZER:ESCapade
-SUMMARY:Utrechts Kampioenschap Programmeren
-UID:8549
-URL:https://www.a-eskwadraat.nl/Activiteiten/escapade/8549/UtrechtsKampioe
- nschapProgrammeren
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:<p>Heb jij de Almanak Bezorgservice gemist maar wil je toch ee
- n almanak? Dat kan! Koop nu de almanak via de site en haal hem af bij de k
- amer als het bestuur er is.  Zorg er wel nog steeds voor dat je de almana
- k betaalt <strong>voordat</strong> je hem afhaalt. Veel lees plezier.</
- p> <p>Kaartjes kun je <a href="https://www.a-eskwadraat.nl/Activiteiten/a
- lmanak2021/8514/Na-verkoopAlmanakken/Info">hier</a> kopen. </p> (<a href
- ="https://www.a-eskwadraat.nl/Activiteiten/almanak2021/8514/Na-verkoopAlma
- nakken">bekijk activiteit</a>)
-DTSTART:20211010T220000Z
-DTEND:20211011T215959Z
-DTSTAMP:20210929T081919Z
-LOCATION:Gezelligheidskamer
-X-ORGANIZER:Almanak 2020-2021
-SUMMARY:Na-verkoop Almanakken
-UID:8514
-URL:https://www.a-eskwadraat.nl/Activiteiten/almanak2021/8514/Na-verkoopAl
- manakken
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:<p>De midterms zijn net voorbij\, of misschien moet je nog een
-  paar. Dat kan erg stressvol zijn\, gelukkig kunnen wij je misschien wel o
- pvrolijken. Of je nou out and proud bent\, nog aan het twijfelen of gewoon
-  een ally met een passie voor koekjes. Kom lekker bij de A-es kamer (vegan
- ) pride koekjes halen en lekker genieten van de inclusiviteit. </p> <hr /
- ><p><strong>Be Gay<br />\nDo Crime<br />\nEat Cookies</strong></p> (<a hre
- f="https://www.a-eskwadraat.nl/Activiteiten/trotcie/8572/ComingOutDayPride
- Koekjes">bekijk activiteit</a>)
-DTSTART:20211011T100000Z
-DTEND:20211011T120000Z
-DTSTAMP:20211008T081332Z
-LOCATION:Gezelligheidskamer
-X-ORGANIZER:TrotCie
-SUMMARY:Coming Out Day Pride Koekjes
-UID:8572
-URL:https://www.a-eskwadraat.nl/Activiteiten/trotcie/8572/ComingOutDayPrid
- eKoekjes
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:<p>Kom leren hoe jouw commissie de inkomsten en uitgaven hoort
-  te administreren.</p> <p>Dit is zowel voor nieuwe als ervaren penningmees
- ters een interessante cursus.</p> (<a href="https://www.a-eskwadraat.nl/Ac
- tiviteiten/bestuur2021/8574/PenningmeesterCursus">bekijk activiteit</a>)
-DTSTART:20211011T130000Z
-DTEND:20211011T150000Z
-DTSTAMP:20211008T102748Z
-LOCATION:Minnaert 205
-X-ORGANIZER:Bestuur 2020-2021
-SUMMARY:Penningmeester Cursus
-UID:8574
-URL:https://www.a-eskwadraat.nl/Activiteiten/bestuur2021/8574/Penningmeest
- erCursus
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:<p>Op woensdag 29 september is er op de AV ingestemd dat op 11
-  oktober het kandidaatsbestuur geïnstalleerd gaat worden als het 76ste be
- stuur en dat het huidige bestuur gedechargeerd gaat worden als het 75ste b
- estuur der Studievereniging A–Eskwadraat voor het jaar 2020-2021. In de 
- Ping Pong Club zullen de ceremoniële en ludieke gedeeltes plaatsvinden\, 
- zoals het voorlezen van speeches\, het overhandigen van de bestuur linten\
- , het voorlezen en overhandigen van de gedenkpenningen voor Ben Bij\, en n
- og meer! Daarna zal de afscheidsborrel van het 75ste bestuur plaatsvinden
- </p> <p>Schrijf je van te voren in via de site\, zonder inschrijving is he
- t niet mogelijk om erbij te zijn. De Ping Pong Club werkt met TvT\, dus z
- org ervoor dat je volledig gevaccineerd zijn\, een herstel bewijs hebt of 
- max. 24 uur van te voren een officiële test gedaan hebt.</p> <p>Hopelijk 
- tot 11 oktober!</p> (<a href="https://www.a-eskwadraat.nl/Activiteiten/bes
- tuur2021/8534/Wisselvanbestuurnaborrel">bekijk activiteit</a>)
-DTSTART:20211011T170000Z
-DTEND:20211011T213000Z
-DTSTAMP:20211002T224622Z
-LOCATION:Ping Pong Club
-X-ORGANIZER:Bestuur 2020-2021
-SUMMARY:Wissel van bestuur + naborrel
-UID:8534
-URL:https://www.a-eskwadraat.nl/Activiteiten/bestuur2021/8534/Wisselvanbes
- tuurnaborrel
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:<p>Binnenkort staat de training <b>Zakelijk Flirten</b> op d
- e planning. Wij hebben er al ontzettend veel zin in! Jij ook? <br />\nTal
- ent&amp\;Pro draagt graag bij aan jullie ontwikkeling. Nu\, maar ook late
- r! Naast de handige tips en tricks die wij je in onze training meegeven wi
- llen we je daarom ook graag wijzen op onze TalentPool. Een mailing boordev
- ol wijsheden\, winacties en mooie verhalen van onze young professionals ov
- er het werkende leven in de financiële dienstverlening.  <br />\nNu ben
-  je natuurlijk nog volop bezig met studeren\, maar na afstuderen komt soll
- iciteren. Het klinkt misschien spannend en misschien ook nog ver weg\, maa
- r hoe fijn is het om nu al te weten dat als je dat punt bereikt er een deu
- r voor je open staat bij Talent&amp\;Pro!<br /><br />\nDus wil je niets m
- issen en op de hoogte blijven van ontwikkelingen die relevant zijn voor jo
- u? Schrijf je dan nu in voor onze TalentPool!<br /><a href="https://www.ta
- lent-pro.com/traineeships/inschrijving-talentpool-voor-hbo-wo-studenten/">
- https://www.talent-pro.com/traineeships/inschrijving-talentpool-voor-hbo-w
- o-studenten/</a></p> (<a href="https://www.a-eskwadraat.nl/Activiteiten/sp
- ocie/8554/WorkshopTalent&amp\;Pro">bekijk activiteit</a>)
-DTSTART:20211012T110000Z
-DTEND:20211012T130000Z
-DTSTAMP:20211006T120659Z
-LOCATION:Ruppert 1.19
+ pan>Op 6 april organiseert Optiver de Data Science Challenge! Je kan je hi
+ ervoor inschrijven via onderstaande link.</span></span></span></span></spa
+ n></span></span></span></span></span></span></span></span></span></span></
+ span></span></p> <p style="margin:0px\;"> </p> <p style="margin:0px\;"><s
+ pan style="font-size:small\;"><span style="color:#222222\;"><span style="f
+ ont-family:Arial\, Helvetica\, sans-serif\;"><span style="font-style:norma
+ l\;"><span><span><span style="font-weight:400\;"><span style="letter-spaci
+ ng:normal\;"><span><span style="text-transform:none\;"><span style="white-
+ space:normal\;"><span><span style="word-spacing:0px\;"><span style="backgr
+ ound-color:#ffffff\;"><span><span><span>Optiver is a leading global electr
+ onic market maker committed to improving the world's financial markets.</s
+ pan></span></span></span></span></span></span></span></span></span></span>
+ </span></span></span></span></span></span></p> <p style="margin:0px\;"><sp
+ an style="font-size:small\;"><span style="color:#222222\;"><span style="fo
+ nt-family:Arial\, Helvetica\, sans-serif\;"><span style="font-style:normal
+ \;"><span><span><span style="font-weight:400\;"><span style="letter-spacin
+ g:normal\;"><span><span style="text-transform:none\;"><span style="white-s
+ pace:normal\;"><span><span style="word-spacing:0px\;"><span style="backgro
+ und-color:#ffffff\;"><span><span><span>Are you ready to put your programmi
+ ng skills to the test? Curious to know what it’s like to work on one of 
+ the most buzzing trading floors in Europe?</span></span></span></span></sp
+ an></span></span></span></span></span></span></span></span></span></span><
+ /span></span></p> <p style="margin:0px\;"><span style="font-size:small\;">
+ <span style="color:#222222\;"><span style="font-family:Arial\, Helvetica\,
+  sans-serif\;"><span style="font-style:normal\;"><span><span><span style="
+ font-weight:400\;"><span style="letter-spacing:normal\;"><span><span style
+ ="text-transform:none\;"><span style="white-space:normal\;"><span><span st
+ yle="word-spacing:0px\;"><span style="background-color:#ffffff\;"><span><s
+ pan><span>Sign-up now <b>before 25 March 2022</b> via the following link
+ : <a href="https://share.hsforms.com/1RewZX8fFQzCuTDxLX97sMg4xtvs" style=
+ "color:#1155cc\;">https://share.hsforms.com/1RewZX8fFQzCuTDxLX97sMg4xtvs</
+ a>  to compete in Optiver’s Data Science Challenge taking place on <b
+ >6th April 2022 between 14:00-18:30.</b> This is your chance to gain firs
+ t-hand experience and insights into what life as a Data Scientist at Optiv
+ er would be like. Have fun competing against your peers from three differe
+ nt study associations (NSA/Aeskwadraat/Van der Waals) on our custom-built 
+ virtual exchange\, using only original Python algorithms.</span></span></s
+ pan></span></span></span></span></span></span></span></span></span></span>
+ </span></span></span></span></p> <p style="margin:0px\;"><span style="font
+ -size:small\;"><span style="color:#222222\;"><span style="font-family:Aria
+ l\, Helvetica\, sans-serif\;"><span style="font-style:normal\;"><span><spa
+ n><span style="font-weight:400\;"><span style="letter-spacing:normal\;"><s
+ pan><span style="text-transform:none\;"><span style="white-space:normal\;"
+ ><span><span style="word-spacing:0px\;"><span style="background-color:#fff
+ fff\;"><span><span><span>Will your code perform the best? We look forward 
+ to finding out and meeting you in our office!</span></span></span></span><
+ /span></span></span></span></span></span></span></span></span></span></spa
+ n></span></span></p> (<a href="https://www.a-eskwadraat.nl/Activiteiten/sp
+ ocie/8686/OptiversDataScienceChallenge">bekijk activiteit</a>)
+DTSTART:20220406T120000Z
+DTEND:20220406T163000Z
+DTSTAMP:20220310T151155Z
+LOCATION:Optiver\, Amsterdam-Zuid
 X-ORGANIZER:SpoCie
-SUMMARY:Workshop Talent&amp\;Pro
-UID:8554
-URL:https://www.a-eskwadraat.nl/Activiteiten/spocie/8554/WorkshopTalent&Pr
- o
+SUMMARY:Optiver’s Data Science Challenge
+UID:8686
+URL:https://www.a-eskwadraat.nl/Activiteiten/spocie/8686/OptiversDataScien
+ ceChallenge
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:<p>Na twee jaar wachten is het weer zo ver\, er komt een A-Esk
- wadraat toneelstuk! En jij mag mee doen!</p> <p>Heb jij een toneelachtergr
- ond of juist helemaal niet en wil je het gewoon een keer proberen? Ben jij
-  super goed in acteren of vind je het gewoon leuk? Wil je als hoofdrol in 
- de spotlights staan of wil je vooral meedoen voor de gezelligheid? Kom dan
-  audities doen!  De audities zelf worden al super leuk dus geen reden om 
- niet even te komen. Plus\, wie wil er nou niet gezellig repeteren met een
-  groep leuke mensen?  En dan mag je als kers op de taart ook nog een leu
- ke voorstelling op het toneel zetten in maart!</p> <p>De audities zullen p
- laatsvinden op<strong> 6 oktober in BBG 071</strong> en op <strong>12 o
- ktober in BBG 005 </strong>van <strong>17:00 - 19:00.</strong></p> <p><s
- trong>Let op! </strong>Het is de bedoeling dat je inschrijft via de site.
-  </p> <p>Tot dan!</p> (<a href="https://www.a-eskwadraat.nl/Activiteiten/
- toneel2122/8551/Audities!12oktober">bekijk activiteit</a>)
-DTSTART:20211012T150000Z
-DTEND:20211012T170000Z
-DTSTAMP:20210927T124155Z
-LOCATION:BBG 005
-X-ORGANIZER:ToneelCie 2021-2022
-SUMMARY:Audities! 12 oktober
-UID:8551
-URL:https://www.a-eskwadraat.nl/Activiteiten/toneel2122/8551/Audities!12ok
- tober
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:<p>Van 28 september tot 4 oktober loopt de LaTeX-cursus van A-
- Eskwadraat\, georganiseerd door de TeXniCie commissie. De cursus is op loc
- atie\, vergeet je dus niet in te schrijven met de link beneden! Je kan je 
- inschrijven tot vlak voor elke sessie\, maar schrijf je op tijd in zodat j
- e geen enkel informatiemailtje mist!</p> <p><strong>Inschrijflink: <a href
- ="https://forms.office.com/r/5eqidwpJFR">https://forms.office.com/r/5eqidw
- pJFR</a></strong></p> <p><big>Heb ik dit nodig?</big></p> <p>Binnen de aca
- demische wereld gebruiken we LaTeX in plaats van Word\; het werkt goed voo
- r professionele documenten met formules\, zoals studieboeken en dictaten. 
- Vroeg of laat heb jij het ook nodig\, of het nu is voor een inleveropgave\
- , werkplan\, verslag of scriptie.</p> <p><big>De cursus</big></p> <p>Je ga
- at LaTeX moeten gebruiken\, en daarom organiseren we jaarlijks een cursus 
- voor  eerstejaars. We leren je hier alles wat je moet weten over LaTeX. D
- e cursus is heel nuttig\, maar niet verplicht.</p> <p>Kan je al LaTeX? Dan
-  is de eerste sessie niet voor jou\, maar de tweede en derde sessie wel. L
- eer je namelijk enkel van het internet\, dan mis je vaak wat belangrijke k
- ennis.</p> <p>De cursus bestaat uit drie sessies\, die telkens beginnen om
-  17:10. Op de website (zie beneden) vind je een voorbeeld van wat je berei
- kt bij elke sessie.</p> <p>Week 1 (di 28 sept): LaTeX die je nodig hebt vo
- or je eerste inleveropgave in LaTeX.<br />\n  --&gt\; Kan je al een beetj
- e LaTeX? Sla deze sessie gerust over.</p> <p>Week 2 (ma 4 okt): LaTeX die 
- je nodig hebt na je eerste inleveropgave in LaTeX.<br />\n  --&gt\; Figur
- en\, referenties\, pagina-layout\, tabellen en meer!</p> <p>Week 3 (di 12 
- okt): LaTeX die je niet direct nodig hebt\, maar die wel heel handig is.<b
- r />\n  --&gt\; Definities\, counters\, boxes\, eigen packages\, andere p
- aginagroottes en meer!</p> <p><big>Schrijf je in!</big></p> <p>Schrijf je 
- in en ontvang alle informatie\, zoals lokaaltjes en installatie-instructie
- s.</p> <p>Inschrijflink: <a href="https://forms.office.com/r/5eqidwpJFR">h
- ttps://forms.office.com/r/5eqidwpJFR</a></p> <p>Meer informatie over de cu
- rsus vind je op<br /><a href="http://www.a-eskwadraat.nl/latex">a-eskwadra
- at.nl/latex</a></p> <p>Tot binnenkort!<br />\n- De TeXniCie</p> <p> </p> 
- (<a href="https://www.a-eskwadraat.nl/Activiteiten/hektex/8548/LaTeX-cursu
- sWeek3Verdiepend">bekijk activiteit</a>)
-DTSTART:20211012T151000Z
-DTEND:20211012T170000Z
-DTSTAMP:20210923T132414Z
-LOCATION:BBG 165
-X-ORGANIZER:TeXniCie
-SUMMARY:LaTeX-cursus Week 3: Verdiepend
-UID:8548
-URL:https://www.a-eskwadraat.nl/Activiteiten/hektex/8548/LaTeX-cursusWeek3
- Verdiepend
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:<p>De cursus is voor iedereen die meer informatie wil over bij
- voorbeeld effectief vergaderen\, discussies leiden of de rol van een voorz
- itter.</p> (<a href="https://www.a-eskwadraat.nl/Activiteiten/bestuur2021/
- 8575/VoorzitterCursus">bekijk activiteit</a>)
-DTSTART:20211013T150000Z
-DTEND:20211013T170000Z
-DTSTAMP:20211008T103037Z
-LOCATION:Komt nog
-X-ORGANIZER:Bestuur 2020-2021
-SUMMARY:Voorzitter Cursus
-UID:8575
-URL:https://www.a-eskwadraat.nl/Activiteiten/bestuur2021/8575/VoorzitterCu
- rsus
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:<p>Het idee dat wiskunde niet alleen nuttig hoeft te zijn\, ma
- ar dat je ook leuke wiskunde kan doen puur en alleen omdat het leuk is\, i
- s bijna 4000 jaar oud en bedacht door de Babyloniërs. Om deze oeroude tr
- aditie van het doen van recreatieve wiskunde in stand te houden organiseer
- t de Cie Infinity maandelijks de (Re)creatieve Wiskunde Avond. De activite
- it zal voor het eerst sinds een lange tijd weer gewoon in de a-eskwadraatk
- amer plaatsvinden! Een avondje samen leuke vraagstukken bekijken\, van het
-  soort dat je ook krijgt op wedstrijden zoals de (internationale) Wiskunde
-  Olympiade\, de MOAWOA of het IMC. Iedereen is welkom en er zijn vraagstuk
- ken van ieder niveau! So join the dork side\, we have cookies!</p> (<a hre
- f="https://www.a-eskwadraat.nl/Activiteiten/cieinfinity/8558/(Re)creatieve
- WiskundeAvond">bekijk activiteit</a>)
-DTSTART:20211014T130000Z
-DTEND:20211014T173000Z
-DTSTAMP:20211008T185133Z
-LOCATION:A-Eskwadraatkamer
+DESCRIPTION:<p>Op 8 april 2022 zal in Utrecht al weer het 13e NKI plaats
+ vinden. Iedereen die goed is in integralen uitrekenen\, of het gewoon erg 
+ leuk vindt om te doen\, is welkom. De wedstrijd bestaat simpelweg uit het 
+ uitrekenen van zoveel mogelijk integralen. Wie hier binnen de gegeven twee
+  uur het verst mee komt\, zal uitgeroepen worden tot Nederlands Kampioen I
+ ntegreren.</p> (<a href="https://www.a-eskwadraat.nl/Activiteiten/cieinfin
+ ity/8629/NKIntegreren">bekijk activiteit</a>)
+DTSTART:20220408T130000Z
+DTEND:20220408T150000Z
+DTSTAMP:20220324T133031Z
+LOCATION:Ruppert 028
 X-ORGANIZER:Cie Infinity
-SUMMARY:(Re)creatieve Wiskunde Avond
-UID:8558
-URL:https://www.a-eskwadraat.nl/Activiteiten/cieinfinity/8558/(Re)creatiev
- eWiskundeAvond
+SUMMARY:NK Integreren
+UID:8629
+URL:https://www.a-eskwadraat.nl/Activiteiten/cieinfinity/8629/NKIntegreren
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:<p>Op 14 oktober organiseert ProCam een pubquiz\, waarbij de 
- hoofdprijs een beerpong tafel voor A-Es is. Die moeten we natuurlijk winne
- n! De pubquiz zal van 19.00 tot 22.00 zijn en plaatsvinden via een combina
- tie van MS Teams en Discord. Hoewel het dus een online evenement is\, kan 
- je natuurlijk altijd bij elkaar gaan zitten met een biertje!</p> <p>Wil je
-  ook meedoen? Geef je dan op via de volgende link: https://procam.nl/pubqu
- iz (en schrijf je als je wil ook nog even hier op de site in!)</p> (<a hre
- f="https://www.a-eskwadraat.nl/Activiteiten/spocie/8573/PubquizProCam">bek
- ijk activiteit</a>)
-DTSTART:20211014T170000Z
-DTEND:20211014T200000Z
-DTSTAMP:20211007T122358Z
-LOCATION:MS Teams & Discord
-X-ORGANIZER:SpoCie
-SUMMARY:Pubquiz ProCam
-UID:8573
-URL:https://www.a-eskwadraat.nl/Activiteiten/spocie/8573/PubquizProCam
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:<p>De StartCie 2021 x Ben Bij presenteert een super leuk dagje
-  Moviepark! Wil jij ook even wegvluchten van je colleges en ben je ook al 
- heel lang niet in het buitenland geweest? Dit is je moment! Voor een lutte
- le €5\,00 krijg je toegang tot het park en een geheel verzorgde busreis
- . We vertrekken vanaf Utrecht Centraal en zullen de hele dag in Moviepar
- k zijn. Zien we jou ook in de achtbaan? </p> <p>De bus vertrekt om 9 uur
-  vanaf Utrecht Centraal en rijdt om 20 uur weer terug vanuit Bottrop. </p
- > <p>Om het park in te komen moet je in het bezit zijn van de internationa
- le QR-code uit de CoronaCheck app. Deze zal gescand worden bij de ingang. 
- Zorg er dus voor dat je deze hebt\, anders zul je het park niet in mogen! 
- Hou hierbij ook rekening met de geldigheid van een testuitslag. Bij de ing
- ang\, in de rij en binnen zal een mondkapje gedragen moeten worden. Zorg e
- r dus voor dat je deze mee neemt. </p> <p>Koop <a href="https://www.a-es
- kwadraat.nl/Activiteiten/startcie2021/8541/DagjeMovieparkGermany/Info">hie
- r</a> je kaartje!</p> (<a href="https://www.a-eskwadraat.nl/Activiteiten/
- startcie2021/8541/DagjeMovieparkGermany">bekijk activiteit</a>)
-DTSTART:20211015T070000Z
-DTEND:20211015T210000Z
-DTSTAMP:20210930T095736Z
-LOCATION:Moviepark Germany
-X-ORGANIZER:StartCie 2021
-SUMMARY:Dagje Moviepark Germany
-UID:8541
-URL:https://www.a-eskwadraat.nl/Activiteiten/startcie2021/8541/DagjeMoviep
- arkGermany
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:<p>Catch up with your fellow master students over some drinks 
- &amp\; bites. Every 3rd monday of the month\, you're welcome to join the M
- asterCie at café de Stichtse Taveerne from 19:00 h. So grab your calender
-  and write down the following dates:</p> <p>October 18th\, november 15th\,
-  december 20th\, january 17th\, february 22nd.</p> <p>See you soon!</p> (<
- a href="https://www.a-eskwadraat.nl/Activiteiten/mastercie/8571/Monthlydri
- nks">bekijk activiteit</a>)
-DTSTART:20211018T170000Z
-DTEND:20211018T215959Z
-DTSTAMP:20211007T155259Z
-LOCATION:Twijnstraat 43\, 3511 ZH Utrecht
-X-ORGANIZER:MasterCie
-SUMMARY:Monthly drinks
-UID:8571
-URL:https://www.a-eskwadraat.nl/Activiteiten/mastercie/8571/Monthlydrinks
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:<p>Wil je leren hoe je effectieve promo maakt?</p> <p>Of hoe j
- e makkelijk goed uitziende posters maakt?</p> <p>Kom gezellig langs bij de
-  cursus\, we gaan uitleggen hoe promo bij aes werkt en een paar handige ti
- ps geven die je helpen bij het maken van promo.</p> (<a href="https://www.
- a-eskwadraat.nl/Activiteiten/bestuur2021/8576/PromoCursus">bekijk activite
- it</a>)
-DTSTART:20211019T150000Z
-DTEND:20211019T170000Z
-DTSTAMP:20211008T103322Z
-LOCATION:Komt Nog
-X-ORGANIZER:Bestuur 2020-2021
-SUMMARY:Promo Cursus
-UID:8576
-URL:https://www.a-eskwadraat.nl/Activiteiten/bestuur2021/8576/PromoCursus
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:<h3><strong>IT Game NS (Nederlandse Spoorwegen)</strong></h3> 
- <p>Ben je benieuwd hoe het is om als IT trainee bij NS aan de slag te gaan
- ? Door middel van de online game <em>Spoor Vier</em> laten we je op dond
- erdag <strong>21 oktober</strong> kennismaken met NS als IT werkgever. H
- et doel van deze game is om een persbericht op te stellen. Je doet dit doo
- r in groepjes op zoek te gaan naar allerlei informatie over NS en het trai
- neeship. Door middel van deze game krijg je snel en op een interactieve ma
- nier een goed beeld van NS als (IT) werkgever.</p> <p>De workshop is onlin
- e en begint stipt om 15.15 met een inloop vanaf 15.10.</p> <p>Klik <a hre
- f="https://teams.microsoft.com/l/team/19%3Addcd5ccf9af04ae893e343a9bb8d8c1
- f%40thread.tacv2/conversations?groupId=5a76f459-b4f4-4119-86dc-33e3919bc44
- 4&amp\;tenantId=d72758a0-a446-4e0f-a0aa-4bf95a4a10e7">hier </a>voor de li
- nk naar het MS Teams</p> (<a href="https://www.a-eskwadraat.nl/Activiteite
- n/spocie/8545/WorkshopNS">bekijk activiteit</a>)
-DTSTART:20211021T131500Z
-DTEND:20211021T141500Z
-DTSTAMP:20210923T102043Z
-LOCATION:ONLINE - Teams
-X-ORGANIZER:SpoCie
-SUMMARY:Workshop NS
-UID:8545
-URL:https://www.a-eskwadraat.nl/Activiteiten/spocie/8545/WorkshopNS
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:<p>TBA</p> (<a href="https://www.a-eskwadraat.nl/Activiteiten/
- startcie2021/8556/Bierdropping">bekijk activiteit</a>)
-DTSTART:20211021T160000Z
-DTEND:20211021T210000Z
-DTSTAMP:20211001T184941Z
-LOCATION:Utrecht
-X-ORGANIZER:StartCie 2021
-SUMMARY:Bierdropping
-UID:8556
-URL:https://www.a-eskwadraat.nl/Activiteiten/startcie2021/8556/Bierdroppin
- g
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:<p>Save the date!<br /><br />\nHet is weer tijd voor de jaarli
- jkse cantus! En wat hebben we er lang op moeten wachten. De HEF heeft een 
- topavond voor jullie in petto\, waar binnenkort kaarten voor in de verkoop
-  gaan. Zet bij deze vast de datum in je agenda en houd de site in de gaten
- !</p> (<a href="https://www.a-eskwadraat.nl/Activiteiten/lustrum2021/8555/
- LustrumCantus">bekijk activiteit</a>)
-DTSTART:20211027T190000Z
-DTEND:20211027T215959Z
-DTSTAMP:20210930T172042Z
-LOCATION:Woolloomooloo
-X-ORGANIZER:HEF
-SUMMARY:Lustrum Cantus
-UID:8555
-URL:https://www.a-eskwadraat.nl/Activiteiten/lustrum2021/8555/LustrumCantu
- s
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:<p>Probeer binnen 45 minuten te ontsnappen uit een kamer vol p
- uzzels\, raadsels en andere (wiskundige) moeilijkheden. Ook geschikt voor 
- eerstejaars!</p> <p>Schrijf je in door een mail te sturen <a href="mailto
- :wiskunde@a-es2.nl">wiskunde@a-es2.nl</a> met een groep van 4 tot 6 perso
- nen en een tijdslot. De beschikbare tijdslots beginnen ieder heel uur van 
- 9:00 t/m 18:00.</p> (<a href="https://www.a-eskwadraat.nl/Activiteiten/cie
- infinity/8567/WiskundeEscapeRoom">bekijk activiteit</a>)
-DTSTART:20211029T070000Z
-DTEND:20211029T164500Z
-DTSTAMP:20211003T203008Z
-LOCATION:TBA
-X-ORGANIZER:Cie Infinity
-SUMMARY:Wiskunde Escape Room
-UID:8567
-URL:https://www.a-eskwadraat.nl/Activiteiten/cieinfinity/8567/WiskundeEsca
- peRoom
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:<p>Het idee dat wiskunde niet alleen nuttig hoeft te zijn\, ma
- ar dat je ook leuke wiskunde kan doen puur en alleen omdat het leuk is\, i
- s bijna 4000 jaar oud en bedacht door de Babyloniërs. Om deze oeroude tr
- aditie van het doen van recreatieve wiskunde in stand te houden organiseer
- t de Cie Infinity maandelijks de (Re)creatieve Wiskunde Avond. De activite
- it zal weer gewoon in de a-eskwadraatkamer plaatsvinden! Een avondje samen
-  leuke vraagstukken bekijken\, van het soort dat je ook krijgt op wedstrij
- den zoals de (internationale) Wiskunde Olympiade\, de MOAWOA of het IMC. I
- edereen is welkom en er zijn vraagstukken van ieder niveau! So join the do
- rk side\, we have cookies!</p> (<a href="https://www.a-eskwadraat.nl/Activ
- iteiten/cieinfinity/8559/(Re)creatieveWiskundeAvond">bekijk activiteit</a>
- )
-DTSTART:20211115T160000Z
-DTEND:20211115T190000Z
-DTSTAMP:20211003T200659Z
-LOCATION:A-Eskwadraatkamer
-X-ORGANIZER:Cie Infinity
-SUMMARY:(Re)creatieve Wiskunde Avond
-UID:8559
-URL:https://www.a-eskwadraat.nl/Activiteiten/cieinfinity/8559/(Re)creatiev
- eWiskundeAvond
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:<p>TBA</p> (<a href="https://www.a-eskwadraat.nl/Activiteiten/
- startcie2021/8557/Escape-roomBorrel">bekijk activiteit</a>)
-DTSTART:20211129T180000Z
-DTEND:20211129T220000Z
-DTSTAMP:20211001T185346Z
-LOCATION:Kroeg in Utrecht
-X-ORGANIZER:StartCie 2021
-SUMMARY:Escape-room Borrel
-UID:8557
-URL:https://www.a-eskwadraat.nl/Activiteiten/startcie2021/8557/Escape-room
- Borrel
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:<p>Mis je de meetkunde van de middelbare school of heb je hele
- maal geen meetkunde meer gehad en wil je wel graag weten wat het is? Kom d
- an naar de opvolger van de vele andere meetkunde wedstrijden waaronder AGE
- NT X\, WOORDGRAP en GOEDHEILIGMAN! Naast meetkunde bevat de wedstrijd oo
- k vragen die misschien niets met meetkunde te maken hebben. Vergeet zeker 
- je geodriehoek niet!</p> <p>De wedstrijd zal zoals gebruikelijk ergens bin
- nen de universiteit plaatsvinden\, de precieze locatie volgt nog. De wedst
- rijd zal beginnen om 17:00\, inloop vanaf 16:30.</p> (<a href="https://ww
- w.a-eskwadraat.nl/Activiteiten/cieinfinity/8568/MeetkundeWedstrijd">bekijk
-  activiteit</a>)
-DTSTART:20211201T153000Z
-DTEND:20211201T180000Z
-DTSTAMP:20211003T204059Z
-LOCATION:TBA
-X-ORGANIZER:Cie Infinity
-SUMMARY:Meetkunde Wedstrijd
-UID:8568
-URL:https://www.a-eskwadraat.nl/Activiteiten/cieinfinity/8568/MeetkundeWed
- strijd
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:<p><span style="font-size:10.5pt\;"><span style="background:#F
- FFFFF\;"><span style="line-height:107%\;"><span style="font-family:Roboto\
- ;"><span style="color:#555555\;">Het spel der spellen is terug! De naam sp
- reekt voor zich\, iedereen deelt de livelocatie en een deel mag zich verst
- oppen over de hele Uithof\, alle openbare gebouwen mag je in. Zo kom je no
- g eens ergens \;) en leer je gelijk alle goede verstopplekjes van de Uitho
- f kennen\, dat kan nooit onhandig zijn! Voor de allerbeste is er natuurlij
- k een leuke prijs te winnen! </span></span></span></span></span></p> (<a h
- ref="https://www.a-eskwadraat.nl/Activiteiten/startcie2021/8570/LiveLocati
- eVerstoppertje">bekijk activiteit</a>)
-DTSTART:20211206T143000Z
-DTEND:20211206T160000Z
-DTSTAMP:20211006T114045Z
-LOCATION:Utrecht Science Park
-X-ORGANIZER:StartCie 2021
-SUMMARY:LiveLocatieVerstoppertje
-UID:8570
-URL:https://www.a-eskwadraat.nl/Activiteiten/startcie2021/8570/LiveLocatie
- Verstoppertje
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:<p>Het idee dat wiskunde niet alleen nuttig hoeft te zijn\, ma
- ar dat je ook leuke wiskunde kan doen puur en alleen omdat het leuk is\, i
- s bijna 4000 jaar oud en bedacht door de Babyloniërs. Om deze oeroude tr
- aditie van het doen van recreatieve wiskunde in stand te houden organiseer
- t de Cie Infinity maandelijks de (Re)creatieve Wiskunde Avond. De activite
- it zal weer gewoon in de a-eskwadraatkamer plaatsvinden! Een avondje samen
-  leuke vraagstukken bekijken\, van het soort dat je ook krijgt op wedstrij
- den zoals de (internationale) Wiskunde Olympiade\, de MOAWOA of het IMC. I
- edereen is welkom en er zijn vraagstukken van ieder niveau! So join the do
- rk side\, we have cookies!</p> (<a href="https://www.a-eskwadraat.nl/Activ
- iteiten/cieinfinity/8560/(Re)creatieveWiskundeAvond">bekijk activiteit</a>
- )
-DTSTART:20211221T160000Z
-DTEND:20211221T190000Z
-DTSTAMP:20211003T200826Z
-LOCATION:A-Eskwadraatkamer
-X-ORGANIZER:Cie Infinity
-SUMMARY:(Re)creatieve Wiskunde Avond
-UID:8560
-URL:https://www.a-eskwadraat.nl/Activiteiten/cieinfinity/8560/(Re)creatiev
- eWiskundeAvond
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:<p>Is jouw brein nog net niet aan vakantie toe? Test dan hoe g
- oed je nog kan rekenen door mee te doen aan het NK hoofdrekenen! Het doel
-  is om binnen een kwartier zonder kladpapier zoveel mogelijk opgaven goed 
- uit te rekenen.</p> <p>Je kan deelnemen tussen 12:00 en 14:00 wanneer het 
- jou uitkomt.</p> (<a href="https://www.a-eskwadraat.nl/Activiteiten/cieinf
- inity/8577/NKHoofdrekenen">bekijk activiteit</a>)
-DTSTART:20211222T110000Z
-DTEND:20211222T130000Z
-DTSTAMP:20211008T184847Z
-LOCATION:A-Eskwadraatkamer
-X-ORGANIZER:Cie Infinity
-SUMMARY:NK Hoofdrekenen
-UID:8577
-URL:https://www.a-eskwadraat.nl/Activiteiten/cieinfinity/8577/NKHoofdreken
- en
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:<p>Het idee dat wiskunde niet alleen nuttig hoeft te zijn\, ma
- ar dat je ook leuke wiskunde kan doen puur en alleen omdat het leuk is\, i
- s bijna 4000 jaar oud en bedacht door de Babyloniërs. Om deze oeroude tr
- aditie van het doen van recreatieve wiskunde in stand te houden organiseer
- t de Cie Infinity maandelijks de (Re)creatieve Wiskunde Avond. Een avondje
-  samen leuke vraagstukken bekijken\, van het soort dat je ook krijgt op we
- dstrijden zoals de (internationale) Wiskunde Olympiade\, de MOAWOA of het 
- IMC. Iedereen is welkom en er zijn vraagstukken van ieder niveau! So join 
- the dork side\, we have cookies!</p> (<a href="https://www.a-eskwadraat.nl
- /Activiteiten/cieinfinity/8561/(Re)creatieveWiskundeAvond">bekijk activite
- it</a>)
-DTSTART:20220119T160000Z
-DTEND:20220119T190000Z
-DTSTAMP:20211003T201043Z
-LOCATION:A-Eskwadraatkamer
-X-ORGANIZER:Cie Infinity
-SUMMARY:(Re)creatieve Wiskunde Avond
-UID:8561
-URL:https://www.a-eskwadraat.nl/Activiteiten/cieinfinity/8561/(Re)creatiev
- eWiskundeAvond
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:<p>Save the date! Meer informatie volgt...</p> (<a href="https
- ://www.a-eskwadraat.nl/Activiteiten/lustrum2021/8553/LustrumGala">bekijk a
- ctiviteit</a>)
-DTSTART:20220211T190000Z
-DTEND:20220211T225959Z
-DTSTAMP:20210930T105711Z
-X-ORGANIZER:HEF
-SUMMARY:Lustrum Gala
-UID:8553
-URL:https://www.a-eskwadraat.nl/Activiteiten/lustrum2021/8553/LustrumGala
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:<p>Het idee dat wiskunde niet alleen nuttig hoeft te zijn\, ma
- ar dat je ook leuke wiskunde kan doen puur en alleen omdat het leuk is\, i
- s bijna 4000 jaar oud en bedacht door de Babyloniërs. Om deze oeroude tr
- aditie van het doen van recreatieve wiskunde in stand te houden organiseer
- t de Cie Infinity maandelijks de (Re)creatieve Wiskunde Avond. Een avondje
-  samen leuke vraagstukken bekijken\, van het soort dat je ook krijgt op we
- dstrijden zoals de (internationale) Wiskunde Olympiade\, de MOAWOA of het 
- IMC. Iedereen is welkom en er zijn vraagstukken van ieder niveau! So join 
- the dork side\, we have cookies!</p> (<a href="https://www.a-eskwadraat.nl
- /Activiteiten/cieinfinity/8562/(Re)creatieveWiskundeAvond">bekijk activite
- it</a>)
-DTSTART:20220216T160000Z
-DTEND:20220216T190000Z
-DTSTAMP:20211003T201334Z
-LOCATION:A-Eskwadraatkamer
-X-ORGANIZER:Cie Infinity
-SUMMARY:(Re)creatieve Wiskunde Avond
-UID:8562
-URL:https://www.a-eskwadraat.nl/Activiteiten/cieinfinity/8562/(Re)creatiev
- eWiskundeAvond
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:<p>Het idee dat wiskunde niet alleen nuttig hoeft te zijn\, ma
- ar dat je ook leuke wiskunde kan doen puur en alleen omdat het leuk is\, i
- s bijna 4000 jaar oud en bedacht door de Babyloniërs. Om deze oeroude tr
- aditie van het doen van recreatieve wiskunde in stand te houden organiseer
- t de Cie Infinity maandelijks de (Re)creatieve Wiskunde Avond. Een avondje
-  samen leuke vraagstukken bekijken\, van het soort dat je ook krijgt op we
- dstrijden zoals de (internationale) Wiskunde Olympiade\, de MOAWOA of het 
- IMC. Iedereen is welkom en er zijn vraagstukken van ieder niveau! So join 
- the dork side\, we have cookies!</p> (<a href="https://www.a-eskwadraat.nl
- /Activiteiten/cieinfinity/8563/(Re)creatieveWiskundeAvond">bekijk activite
- it</a>)
-DTSTART:20220317T160000Z
-DTEND:20220317T190000Z
-DTSTAMP:20211003T201450Z
-LOCATION:A-Eskwadraatkamer
-X-ORGANIZER:Cie Infinity
-SUMMARY:(Re)creatieve Wiskunde Avond
-UID:8563
-URL:https://www.a-eskwadraat.nl/Activiteiten/cieinfinity/8563/(Re)creatiev
- eWiskundeAvond
+DESCRIPTION:<p>Na drie jaar gaan we eindelijk weer op reis! </p> <p dir="
+ ltr">En jij kan mee met deze tiendaagse reis naar Spanje en Portugal. We 
+ gaan met een leuke groep A-Essers eerst vijf dagen naar Madrid en vervolge
+ ns nog vijf dagen naar Lissabon. Naast het ontdekken van deze geweldige st
+ eden\, moet je bij deze reis ook denken aan chillen op het strand\, het be
+ zoeken van grote universiteiten\, en natuurlijk voor het eerst in tijden w
+ eer lekker op vakantie zijn met vrienden! In beide steden gaan we naar een
+  hostel met een heus dakterras\, en in Lissabon zit er zelfs een zwembad b
+ ij!</p> <p dir="ltr">Dus naast interessante bezoeken aan bedrijven en univ
+ ersiteiten staan er ook een hoop andere hartstikke leuke activiteiten gepl
+ and. Verder is er genoeg vrije tijd om goed van de vakantie te genieten en
+  om ook ‘s avonds de stad te verkennen.</p> <p dir="ltr">Schrijf je nu 
+ in via onderstaande forms:</p> <p dir="ltr"><b><a href="https://forms.gle/
+ 4dLSREBV5f83oQt48">https://forms.gle/4dLSREBV5f83oQt48</a></b></p> <p dir=
+ "ltr"><em>De inschrijvingen sluiten op 24 december. Schrijf je dus snel i
+ n!</em></p> <p>- Er is plek voor 31 deelnemers. Als er na de deadline meer
+  aanmeldingen zijn\, zal er worden geloot. Tijd van aanmelden voor de reis
+  speelt hierbij geen rol.</p> <p>- Het is mogelijk om in te schrijven sam
+ en met een buddy. In dat geval worden jullie gegroepeerd bij eventueel lot
+ en. Zo weet je zeker dat je samen met je buddy op reis gaat\, mocht je wo
+ rden ingeloot. </p> <p>- De reis zal maximaal €490\,-  gaan kosten.</p
+ > <p>- Als je nog vragen hebt over de reis\, kan je altijd een commissiel
+ id een appje sturen\, of ons mailen op <em>studiereis2021@a-eskwadraat.nl
+ </em></p> (<a href="https://www.a-eskwadraat.nl/Activiteiten/studiereis202
+ 1/8619/StudiereisMadridenLissabon">bekijk activiteit</a>)
+DTSTART:20220414T220000Z
+DTEND:20220424T215959Z
+DTSTAMP:20211216T112701Z
+LOCATION:Madrid en Lissabon
+X-ORGANIZER:Studiereis 2021-2022
+SUMMARY:Studiereis Madrid en Lissabon
+UID:8619
+URL:https://www.a-eskwadraat.nl/Activiteiten/studiereis2021/8619/Studierei
+ sMadridenLissabon
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:<p>Het idee dat wiskunde niet alleen nuttig hoeft te zijn\, ma
@@ -632,15 +284,124 @@ DESCRIPTION:<p>Het idee dat wiskunde niet alleen nuttig hoeft te zijn\, ma
  the dork side\, we have cookies!</p> (<a href="https://www.a-eskwadraat.nl
  /Activiteiten/cieinfinity/8564/(Re)creatieveWiskundeAvond">bekijk activite
  it</a>)
-DTSTART:20220404T150000Z
-DTEND:20220404T180000Z
-DTSTAMP:20211003T201555Z
+DTSTART:20220419T130000Z
+DTEND:20220419T173000Z
+DTSTAMP:20220217T124925Z
 LOCATION:A-Eskwadraatkamer
 X-ORGANIZER:Cie Infinity
 SUMMARY:(Re)creatieve Wiskunde Avond
 UID:8564
 URL:https://www.a-eskwadraat.nl/Activiteiten/cieinfinity/8564/(Re)creatiev
  eWiskundeAvond
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:<p>We weten nog niet hoe het er allemaal uit gaat zien\, maar 
+ verdere info volgt nog. Save the date!</p> (<a href="https://www.a-eskwadr
+ aat.nl/Activiteiten/fantacie/8637/FantaCieactiviteit">bekijk activiteit</a
+ >)
+DTSTART:20220420T130000Z
+DTEND:20220420T170000Z
+DTSTAMP:20220112T154144Z
+X-ORGANIZER:FantaCie
+SUMMARY:FantaCie activiteit
+UID:8637
+URL:https://www.a-eskwadraat.nl/Activiteiten/fantacie/8637/FantaCieactivit
+ eit
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:<p>Heb jij nog goeie tips en/of tops voor het bestuur? Kom dan
+  vooral naar dit feedbackuurtje!!</p> <p>Meer info over hoe het er precies
+  uit gaat zien\, volgt nog. Maar er zal in elk geval de mogelijkheid zijn 
+ om feedback te geven direct aan het bestuur\, maar ook om het er gewoon me
+ t een lid van de adviesraad over te hebben als je je er niet comfortabel b
+ ij voelt om het rechtstreeks bij het bestuur te melden.</p> (<a href="http
+ s://www.a-eskwadraat.nl/Activiteiten/ar2122/8700/Feedbackuurtjebestuur">be
+ kijk activiteit</a>)
+DTSTART:20220428T100000Z
+DTEND:20220428T100001Z
+DTSTAMP:20220325T110552Z
+X-ORGANIZER:Adviesraad 2021-2022
+SUMMARY:Feedbackuurtje bestuur
+UID:8700
+URL:https://www.a-eskwadraat.nl/Activiteiten/ar2122/8700/Feedbackuurtjebes
+ tuur
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:<p>In het weekend van 10 tot 12 juni organiseren wij een super
+  tof natuurkundig uitstapje!<br />\nOp dit uitstapje zullen we op bezoek g
+ aan bij energieonderzoeksinstituut DIFFER in eindhoven.<br />\nVerder zull
+ en we natuurlijk nog andere\, minder natuurkunde gerelateerde\, maar nog s
+ teeds erg leuke\, activiteiten doen.</p> <p>De inschrijving gaat deze dag 
+ open en sluit weer twee weken later\, dus wees er snel bij.<br />\nAls er 
+ meer inschrijvingen dat plekken blijken te zijn zullen we de plaatsen gaan
+  verloten.</p> <p><em>Kom naar de kamer tijdens de opening van de inschrij
+ ving voor nog een leuke natuurkundige lekkernij!</em></p> <p> </p> (<a hr
+ ef="https://www.a-eskwadraat.nl/Activiteiten/natco2122/8689/Inschrijvingna
+ tuurkundiguitstapjeKamerovername">bekijk activiteit</a>)
+DTSTART:20220428T104500Z
+DTEND:20220428T111500Z
+DTSTAMP:20220311T133743Z
+LOCATION:A-Eskwadraatkamer
+X-ORGANIZER:NatCo 2021-2022
+SUMMARY:Inschrijving natuurkundig uitstapje + Kamerovername
+UID:8689
+URL:https://www.a-eskwadraat.nl/Activiteiten/natco2122/8689/Inschrijvingna
+ tuurkundiguitstapjeKamerovername
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:<h2>De Race</h2> <p>In april of mei klinkt jaarlijks het start
+ schot voor de grootste estafetteloop van de wereld: de Batavierenrace. De 
+ 50e editie van de Batavierenrace zal van start gaan op vrijdagavond 29 apr
+ il 2022. De route loopt van het centrum van Nijmegen\, via Duitsland\, de 
+ rustige Achterhoek en de Oude Markt in hartje Enschede naar de campus van 
+ de Universiteit Twente.</p> <h2>Het Batavierenfeest</h2> <p>Na de finish v
+ an de Batavierenrace rond 18:00 uur volgt jaarlijks het grootste studenten
+ feest van de Benelux op de campus van Universiteit Twente in Enschede. Naa
+ r schatting zijn er 13.000 studenten die op verschillende locaties van de 
+ campus uit hun dak gaan! De organisatie van het feest ligt in handen van h
+ et Evenementenbureau van Universiteit Twente.</p> <h2>Kosten</h2> <p>De ko
+ sten zijn nog niet exact bekend. Voor nu kan een eerste betaling van 7\,50
+  euro gedaan worden voor de inschrijving. Zodra we een beter beeld hebben 
+ van de kosten\, zal er een tweede betaling plaatsvinden. Het totaalbedrag 
+ gaat op maximaal 35 euro uitkomen\, maar we doen ons best om het lager uit
+  te laten komen. Je kan <a href="https://www.a-eskwadraat.nl/Activiteiten
+ /sport/8696/Batavierenrace2022/KaartjeKopen">hier je kaartje kopen</a> </
+ p> (<a href="https://www.a-eskwadraat.nl/Activiteiten/sport/8696/Bataviere
+ nrace2022">bekijk activiteit</a>)
+DTSTART:20220429T150000Z
+DTEND:20220501T150000Z
+DTSTAMP:20220324T090052Z
+LOCATION:Nijmegen - Enschede
+X-ORGANIZER:SportCie
+SUMMARY:Batavierenrace 2022
+UID:8696
+URL:https://www.a-eskwadraat.nl/Activiteiten/sport/8696/Batavierenrace2022
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:<p>TBA</p> (<a href="https://www.a-eskwadraat.nl/Activiteiten/
+ educacie/8704/Kroegcollege">bekijk activiteit</a>)
+DTSTART:20220502T180000Z
+DTEND:20220502T210000Z
+DTSTAMP:20220328T094328Z
+X-ORGANIZER:EducaCie
+SUMMARY:Kroegcollege
+UID:8704
+URL:https://www.a-eskwadraat.nl/Activiteiten/educacie/8704/Kroegcollege
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:<p>Op 4 mei nemen Lotte en Rinske de kamer over om samen met j
+ ullie opzoek te gaan naar paaseieren\, hoeveel kun jij er vinden?</p> (<a 
+ href="https://www.a-eskwadraat.nl/Activiteiten/kamerdienst/8707/Kompaaseie
+ renzoeken!">bekijk activiteit</a>)
+DTSTART:20220504T090000Z
+DTEND:20220504T130000Z
+DTSTAMP:20220328T181157Z
+LOCATION:De gezelligheidsskamer
+X-ORGANIZER:KamerdienstVrijwilligers
+SUMMARY:Kom paaseieren zoeken!
+UID:8707
+URL:https://www.a-eskwadraat.nl/Activiteiten/kamerdienst/8707/Kompaaseiere
+ nzoeken!
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:<p>Het idee dat wiskunde niet alleen nuttig hoeft te zijn\, ma
@@ -654,15 +415,140 @@ DESCRIPTION:<p>Het idee dat wiskunde niet alleen nuttig hoeft te zijn\, ma
  the dork side\, we have cookies!</p> (<a href="https://www.a-eskwadraat.nl
  /Activiteiten/cieinfinity/8565/(Re)creatieveWiskundeAvond">bekijk activite
  it</a>)
-DTSTART:20220511T150000Z
-DTEND:20220511T180000Z
-DTSTAMP:20211003T201739Z
+DTSTART:20220511T130000Z
+DTEND:20220511T173000Z
+DTSTAMP:20211116T173746Z
 LOCATION:A-Eskwadraatkamer
 X-ORGANIZER:Cie Infinity
 SUMMARY:(Re)creatieve Wiskunde Avond
 UID:8565
 URL:https://www.a-eskwadraat.nl/Activiteiten/cieinfinity/8565/(Re)creatiev
  eWiskundeAvond
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:<p>Op 12 mei is het eindelijk zo ver\, het gouden Lustrumgala 
+ van A-Eskwadraat onder de zinspreuk "Terug naar de gouden jaren". Het gala
+  zal plaatsvinden in Kasteel Aldendriel te Mill\, waar je onder het genot 
+ van onbeperkte drankjes\, een versnapering en de vetste muziek de tijden v
+ an corona achter je kunt laten.</p> <p dir="ltr">Het vervoer is volledig g
+ eregeld en is inbegrepen in de prijs: we zullen met bussen vanaf het BBG 
+ vertrekken richting het kasteel en 's nachts brengen we je natuurlijk ook 
+ weer terug naar Utrecht.</p> <p>Koop je kaartje nu snel via de A-Eskwadraa
+ t website! Het is uiteraard mogelijk om een kaartje voor een (externe) dat
+ e te halen. Dus mis dit grote spektakel niet en zorg dat jij er bij bent!<
+ /p> <p><em>--&gt\; <a href="https://www.a-eskwadraat.nl/Activiteiten/lust
+ rum2021/8553/LustrumGalaTerugnaardegoudenjaren/KaartjeKopen"><strong>Koop 
+ hier je tickets</strong></a></em></p> <p dir="ltr"><strong><u>Praktische i
+ nformatie</u><br /><br />\nTickets</strong><br />\nJe ontvangt je kaartje(
+ s) in de vorm van een QR code. Zorg dat je een bereikbare mail opgeeft en 
+ zeker weet dat de iDeal betaling gelukt is. Door gebruik van iDeal komen e
+ r 0\,35 EUR transactiekosten bovenop je betaling.</p> <p dir="ltr"><strong
+ >Programma voor de avond:</strong><br />\n19:00 - Verzamelen voor het BBG<
+ br />\n19:30 - Bussen rijden weg (uiterlijke tijd\, er wordt niet gewacht!
+ )<br />\n21:00 - Aankomst bij kasteel Aldendriel<br />\n21:00 tot 01:50 - 
+ <em>Gala!</em><br />\n2:00 - Terug met de bussen<br />\n3:30 - Aankomst de
+  Uithof</p> <p dir="ltr"><b>Blijven slapen</b><br />\nHet is mogelijk om e
+ en hotelovernachting te boeken. Het Fletcherhotel in Mill ligt op 800 mete
+ r van kasteel Aldendriel (10min lopen). Je kunt via hun website je overnac
+ hting boeken. Je bent zelf verantwoordelijk voor de boeking en eventuele r
+ eis daaromheen. De indicatiekosten zijn €90 en er is beperkt plek.<br /
+ ><br /><strong>Inclusief</strong><br />\n- Onbeperkt drank (bier\, wijn\, 
+ fris\, sterk)<br />\n- Welkomstcocktail<br />\n- Gefrituurde versnaperinge
+ n<br />\n- Busreis</p> <p><strong>Dresscode</strong><br /><em>Black tie wi
+ th a golden touch</em></p> (<a href="https://www.a-eskwadraat.nl/Activitei
+ ten/lustrum2021/8553/LustrumGalaTerugnaardegoudenjaren">bekijk activiteit<
+ /a>)
+DTSTART:20220512T174500Z
+DTEND:20220513T000000Z
+DTSTAMP:20220328T201422Z
+LOCATION:Kasteel Aldendriel\, Mill (incl. busreis)
+X-ORGANIZER:HEF
+SUMMARY:Lustrum Gala: Terug naar de gouden jaren
+UID:8553
+URL:https://www.a-eskwadraat.nl/Activiteiten/lustrum2021/8553/LustrumGalaT
+ erugnaardegoudenjaren
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:<p>We weten nog niet hoe het er allemaal uit gaat zien\, maar 
+ verdere info volgt nog. Save the date!</p> (<a href="https://www.a-eskwadr
+ aat.nl/Activiteiten/fantacie/8638/FantaCieactiviteit">bekijk activiteit</a
+ >)
+DTSTART:20220517T130000Z
+DTEND:20220517T170000Z
+DTSTAMP:20220112T154230Z
+X-ORGANIZER:FantaCie
+SUMMARY:FantaCie activiteit
+UID:8638
+URL:https://www.a-eskwadraat.nl/Activiteiten/fantacie/8638/FantaCieactivit
+ eit
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:<p>Dit is de laatste algemene vergadering van dit collegejaar.
+  </p> (<a href="https://www.a-eskwadraat.nl/Activiteiten/bestuur2122/8708
+ /MeiAV">bekijk activiteit</a>)
+DTSTART:20220518T130000Z
+DTEND:20220518T200000Z
+DTSTAMP:20220328T154814Z
+LOCATION:Ruppert Wit
+X-ORGANIZER:Bestuur 2021-2022
+SUMMARY:Mei AV
+UID:8708
+URL:https://www.a-eskwadraat.nl/Activiteiten/bestuur2122/8708/MeiAV
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:<p>Op 19 mei is het weer zover: de jaarlijkse departementsdag 
+ van wiskunde zal dan plaatsvinden! Tussen 15:15 en 16:00 kunnen studenten
+  en docenten genieten van een lezing over de fascinatie van musici voor d
+ e wiskunde\, en hoe die daar terug te vinden is. Deze lezing wordt gegeven
+  door Michiel Schuijer\, die nu werkzaam is op het constervatorium van Ams
+ terdam. Hierna\, tussen 16:00 en 17:00\, volgen meerdere korte rondes waar
+ in oud-studenten vertellen over hun beroep en beroepskeuze. We sluiten ver
+ volgens af met een borrel.</p> <p>De departementsdag staat in het teken va
+ n kennismaking\, zowel met anderen als met andere aspecten van de wiskunde
+ . Ook voor deze dag geldt: hoe meer zielen\, hoe meer vreugd! We hopen jul
+ lie in grote getale te zien. Tot snel!</p> <p>Groetjes van het WOL</p> <p>
+ P.S. Misschien zal deze enerverende middag ook wel tellen als Caleidoscoop
+ lezing.....</p> (<a href="https://www.a-eskwadraat.nl/Activiteiten/medezeg
+ genschap/8706/Departementsdagwiskunde">bekijk activiteit</a>)
+DTSTART:20220519T131500Z
+DTEND:20220519T170000Z
+DTSTAMP:20220328T115520Z
+LOCATION:KBG: exacte locatie volgt
+X-ORGANIZER:Medezeggenschap
+SUMMARY:Departementsdag wiskunde
+UID:8706
+URL:https://www.a-eskwadraat.nl/Activiteiten/medezeggenschap/8706/Departem
+ entsdagwiskunde
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:<p>De leukste wiskundewedstrijd van het jaar! Zie <a href="ht
+ tps://www.a-eskwadraat.nl/Vereniging/Commissies/cieinfinity/moawoa.html">h
+ ier</a> voor meer informatie en inschrijven.</p> (<a href="https://www.a-
+ eskwadraat.nl/Activiteiten/cieinfinity/8631/MOAWOA">bekijk activiteit</a>)
+DTSTART:20220520T110000Z
+DTEND:20220520T150000Z
+DTSTAMP:20220109T171301Z
+LOCATION:TBA
+X-ORGANIZER:Cie Infinity
+SUMMARY:MOAWOA
+UID:8631
+URL:https://www.a-eskwadraat.nl/Activiteiten/cieinfinity/8631/MOAWOA
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:<p> De grote ExcurCie organiseert elk jaar een weekendje weg\
+ , naar het buitenland\, en dit collegejaar zal het plaatsvinden op 28\, 29
+  en 30 mei. </p> <p>Dus wil jij mee? Hou dan een plek vrij in je agend
+ a!</p> (<a href="https://www.a-eskwadraat.nl/Activiteiten/excurcie/8599/Sa
+ veTheDateExcursie">bekijk activiteit</a>)
+DTSTART:20220528T050000Z
+DTEND:20220530T100000Z
+DTSTAMP:20220207T101830Z
+LOCATION:volgt nog!
+X-ORGANIZER:ExcurCie
+SUMMARY:Save The Date: Excursie
+UID:8599
+URL:https://www.a-eskwadraat.nl/Activiteiten/excurcie/8599/SaveTheDateExcu
+ rsie
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:<p>Het idee dat wiskunde niet alleen nuttig hoeft te zijn\, ma
@@ -676,14 +562,102 @@ DESCRIPTION:<p>Het idee dat wiskunde niet alleen nuttig hoeft te zijn\, ma
  the dork side\, we have cookies!</p> (<a href="https://www.a-eskwadraat.nl
  /Activiteiten/cieinfinity/8566/(Re)creatieveWiskundeAvond">bekijk activite
  it</a>)
-DTSTART:20220607T150000Z
-DTEND:20220607T180000Z
-DTSTAMP:20211003T201835Z
+DTSTART:20220607T130000Z
+DTEND:20220607T173000Z
+DTSTAMP:20211116T173808Z
 LOCATION:A-Eskwadraatkamer
 X-ORGANIZER:Cie Infinity
 SUMMARY:(Re)creatieve Wiskunde Avond
 UID:8566
 URL:https://www.a-eskwadraat.nl/Activiteiten/cieinfinity/8566/(Re)creatiev
  eWiskundeAvond
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:<p>TBA</p> (<a href="https://www.a-eskwadraat.nl/Activiteiten/
+ startcie2021/8702/Themadag!">bekijk activiteit</a>)
+DTSTART:20220608T110000Z
+DTEND:20220608T160000Z
+DTSTAMP:20220328T094005Z
+X-ORGANIZER:StartCie 2021
+SUMMARY:Themadag!
+UID:8702
+URL:https://www.a-eskwadraat.nl/Activiteiten/startcie2021/8702/Themadag!
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:<p>TBA</p> (<a href="https://www.a-eskwadraat.nl/Activiteiten/
+ startcie2021/8703/Flunkybaltoernooi">bekijk activiteit</a>)
+DTSTART:20220608T160000Z
+DTEND:20220608T215959Z
+DTSTAMP:20220328T094211Z
+X-ORGANIZER:StartCie 2021
+SUMMARY:Flunkybal toernooi
+UID:8703
+URL:https://www.a-eskwadraat.nl/Activiteiten/startcie2021/8703/Flunkybalto
+ ernooi
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:<p>We weten nog niet hoe het er allemaal uit gaat zien\, maar 
+ verdere info volgt nog. Save the date!</p> (<a href="https://www.a-eskwadr
+ aat.nl/Activiteiten/fantacie/8639/FantaCieactiviteit">bekijk activiteit</a
+ >)
+DTSTART:20220609T130000Z
+DTEND:20220609T170000Z
+DTSTAMP:20220112T154337Z
+X-ORGANIZER:FantaCie
+SUMMARY:FantaCie activiteit
+UID:8639
+URL:https://www.a-eskwadraat.nl/Activiteiten/fantacie/8639/FantaCieactivit
+ eit
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:<p>In dit weekend ga je met de NatCo 2021--2022 op een educati
+ ef uitstapje naar energieonderzoeksinstituut DIFFER in Eindhoven. Hiernaas
+ t gaan we ook andere leuke activiteiten in die omgeving doen\, dus wees er
+ bij!</p> <p>Save the date en vergeet je niet in te schrijven tussen 28 apr
+ il en 12 mei!</p> <p>Toegangsprijs en precieze start- en eindtijden volgen
+  nog.</p> (<a href="https://www.a-eskwadraat.nl/Activiteiten/natco2122/869
+ 8/Natuurkundiguitstapje">bekijk activiteit</a>)
+DTSTART:20220610T100000Z
+DTEND:20220612T150000Z
+DTSTAMP:20220321T134825Z
+LOCATION:Eindhoven
+X-ORGANIZER:NatCo 2021-2022
+SUMMARY:Natuurkundig uitstapje
+UID:8698
+URL:https://www.a-eskwadraat.nl/Activiteiten/natco2122/8698/Natuurkundigui
+ tstapje
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:<p>Om het 50 jarig bestaan van A-Eskwadraat te vieren zullen w
+ e leden en oud-leden verwelkomen op de reünie. Er zijn praatjes van mense
+ n uit iedere generatie\, rondleiding op De Uithof\, een lunch en een leuke
+  afsluitende borrel. Ook zullen nieuwe ereleden en leden van verdienste wo
+ rden bekendgemaakt.</p> <p><em>Deze activiteit zit vooralsnog vol. Stuur e
+ en mailtje naar lustrum2021@a-eskwadraat.nl als je in aanmerking wil komen
+  voor de reservelijst.</em></p> (<a href="https://www.a-eskwadraat.nl/Acti
+ viteiten/lustrum2021/8701/A-EskwadraatRenie">bekijk activiteit</a>)
+DTSTART:20220611T090000Z
+DTEND:20220611T150000Z
+DTSTAMP:20220325T123139Z
+LOCATION:Restaurant Oude Tolhuys
+X-ORGANIZER:HEF
+SUMMARY:A-Eskwadraat Reünie
+UID:8701
+URL:https://www.a-eskwadraat.nl/Activiteiten/lustrum2021/8701/A-Eskwadraat
+ Renie
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:<p>We weten nog niet precies hoe het er allemaal uit gaat zien
+ \, maar verdere info volgt nog. Er zal taart wezen! :) Save the date!</p> 
+ (<a href="https://www.a-eskwadraat.nl/Activiteiten/fantacie/8640/FantaCiea
+ ctiviteit">bekijk activiteit</a>)
+DTSTART:20220614T130000Z
+DTEND:20220614T170000Z
+DTSTAMP:20220112T154516Z
+X-ORGANIZER:FantaCie
+SUMMARY:FantaCie activiteit
+UID:8640
+URL:https://www.a-eskwadraat.nl/Activiteiten/fantacie/8640/FantaCieactivit
+ eit
 END:VEVENT
 END:VCALENDAR

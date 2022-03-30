@@ -1,5 +1,6 @@
 html{
   background-color: $action-color;
+  overflow: hidden;
 }
 
 .container{
@@ -87,8 +88,8 @@ html{
 .event{
   @include grid-media($media--4k) {
     min-height: 120px;
-  } 
-  
+  }
+
 }
 
 .banner{
@@ -191,6 +192,7 @@ html{
 }
 
 .container--poster{
+  aspect-ratio:1/1.4142;
   display: none;
   @include grid-media($media--fullhd) {
   @include flex-row();
