@@ -161,8 +161,10 @@ function updateAll() {
 	if (Date.now() - timeLastUpdated > actUpdateTime) {
 		updating = true;
 		timeLastUpdated = Date.now();
-		updateActiviteiten(fillacts);
-		getAMO();
+		updateActiviteiten(function(){
+			fillacts();
+			getAMO();
+		});
 	}
 
 }
